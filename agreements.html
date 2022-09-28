@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/hosting/header.png" type="image/icon type" />
+    <title>El-Delta Cloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium Bootstrap 5 Landing Page Template"
+    />
+    <meta
+      name="keywords"
+      content="Saas, Software, multi-uses, HTML, Clean, Modern"
+    />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link
+      href="css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!-- Main Css -->
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      id="theme-opt"
+    />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="home.html">
+          <span class="logo-light-mode">
+            <img src="images/lightlogo.png" class="l-dark" height="60" alt="" />
+            <img src="images/darklogo.png" class="l-light" height="60" alt="" />
+          </span>
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="logo-dark-mode"
+            alt=""
+          />
+        </a>
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0">
+          <li class="list-inline-item mb-0">
+            <a
+              href="javascript:void(0)"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="login-btn-primary">
+                <span class="btn btn-icon btn-pills btn-soft-primary"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+              <div class="login-btn-light">
+                <span class="btn btn-icon btn-pills btn-light"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!--Login button End-->
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu nav-light">
+            <li><a href="home.html" class="sub-menu-item">Home</a></li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Services</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="services-compute.html" class="sub-menu-item"
+                    >Compute</a
+                  >
+                </li>
+                <li>
+                  <a href="services-storage.html" class="sub-menu-item"
+                    >Storage</a
+                  >
+                </li>
+                <li>
+                  <a href="services-unstructured.html" class="sub-menu-item"
+                    >Unstructured</a
+                  >
+                </li>
+                <li>
+                  <a href="services-networking.html" class="sub-menu-item"
+                    >Networking</a
+                  >
+                </li>
+                <li>
+                  <a href="services-firewall.html" class="sub-menu-item"
+                    >Firewall</a
+                  >
+                </li>
+                <li>
+                  <a href="services-recovery.html" class="sub-menu-item"
+                    >Recovery</a
+                  >
+                </li>
+                <li>
+                  <a href="services-dns.html" class="sub-menu-item">DNS</a>
+                </li>
+                <li>
+                  <a href="services-monitoring.html" class="sub-menu-item"
+                    >Monitoring</a
+                  >
+                </li>
+                <li>
+                  <a href="services-private-cloud.html" class="sub-menu-item"
+                    >Private Cloud</a
+                  >
+                </li>
+                <li>
+                  <a href="services-on-premises.html" class="sub-menu-item"
+                    >On-Premises</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Industries</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="industries-education.html" class="sub-menu-item"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-medical.html" class="sub-menu-item"
+                    >Medical</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-finance.html" class="sub-menu-item"
+                    >Finance</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-telecom.html" class="sub-menu-item"
+                    >Telecom</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-gov.html" class="sub-menu-item">GOV</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="packages.html" class="sub-menu-item">Packages</a>
+            </li>
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Support</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="support-faq.html" class="sub-menu-item">FAQ</a>
+                </li>
+                <li>
+                  <a href="support-feedback.html" class="sub-menu-item"
+                    >Feedback</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section
+      class="bg-half-170 d-table w-100"
+      style="background-image: url('images/hosting/pages.png')"
+    >
+      <div class="bg-overlay bg-gradient-primary opacity-9"></div>
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="pages-heading title-heading">
+              <h4 class="title text-white title-dark mb-4">
+                Service Level Agreements
+              </h4>
+              <!-- <p class="text-white-50 para-desc mx-auto mb-0">
+                We asked you for your top questions on cloud computing and have
+                provided the answers !
+              </p> -->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="position-breadcrumb">
+          <nav aria-label="breadcrumb" class="d-inline-block">
+            <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
+              <li class="breadcrumb-item">
+                <a href="home.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Service Level Agreements
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <div class="position-relative">
+      <div class="shape overflow-hidden text-white">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Start -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-12 d-none d-md-block">
+            <div class="rounded-md shadow p-4 sticky-bar">
+              <ul class="list-unstyled sidebar-nav mb-0 py-2" id="navmenu-nav">
+                <li class="mb-3 navbar-item">
+                  <a href="#personal" class="mouse-down h6 text-dark"
+                    >Service Level Agreements</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#financial" class="mouse-down h6 text-dark"
+                    >Network Uptime</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#internet" class="mouse-down h6 text-dark"
+                    >Infrastructure Uptime</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#integrity" class="mouse-down h6 text-dark"
+                    >Host Uptime</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#access" class="mouse-down h6 text-dark"
+                    >Four-Hour Hardware Replacement</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#information" class="mouse-down h6 text-dark"
+                    >Backup Responsibility</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#electronic" class="mouse-down h6 text-dark"
+                    >Security and Patching Responsibility</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#disclosure" class="mouse-down h6 text-dark"
+                    >Service Credits</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#commitment" class="mouse-down h6 text-dark"
+                    >Service Credit Requests</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-8 col-md-7 col-12">
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="terms">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Service Level Agreements
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#terms"
+                >
+                  <div class="accordion-body text-muted">
+                    This Service Level Agreement (the “SLA”) is an integral part
+                    of your agreement with El Delta Electronic Systems, a
+                    company organized and operating under the laws of Egypt (“El
+                    Delta”) for the provision of services (collectively the
+                    “Services”) set forth on the Service Order. This SLA defines
+                    the terms of our responsibility with respect to the Services
+                    that we provide (the “Service Commitments”) and your
+                    remedies in the event that we fail to meet these Service
+                    Commitments. This SLA and the refunds set forth herein (the
+                    “Service Credits”) represent El Delta’s sole obligation and
+                    your sole remedy for our failure to meet such Service
+                    Commitments. The Service Commitments under this SLA are as
+                    follows:
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="definitions">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Network Uptime
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#definitions"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta guarantees 99.99% network uptime for our public
+                    Internet network, excluding scheduled maintenance.
+                    Notwithstanding the foregoing, you recognize that the
+                    Internet is comprised of thousands upon thousands of
+                    autonomous systems that are beyond the control of El Delta.
+                    This SLA and the 99.99% Network Uptime Service Commitment
+                    cover the provision of access by El Delta to the global
+                    internet “cloud”. Routing anomalies, asymmetries,
+                    inconsistencies and failures of the Internet outside of the
+                    control of El Delta can and will occur, and such instances
+                    shall not be considered any failure of the 99.99% Network
+                    Uptime Service Commitment. El Delta proactively monitors
+                    network uptime. The results of these monitoring systems
+                    shall provide the sole and exclusive determination of
+                    network uptime.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="obligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    Infrastructure Uptime
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#obligations"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta guarantees that the critical infrastructure systems
+                    will be available 99.99% of the time in a given month,
+                    excluding scheduled maintenance. Critical infrastructure
+                    systems include all power and HVAC infrastructure, including
+                    UPS, PDU, and cabling. Critical infrastructure systems do
+                    not include any software or services running on a server,
+                    nor do they include any server hardware. El Delta
+                    proactively monitors infrastructure availability. The
+                    results of these monitoring systems shall provide the sole
+                    and exclusive determination of infrastructure availability.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="yourobligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Host Uptime
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#yourobligations"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta guarantees the functioning of all server hosts,
+                    including compute, storage, and hypervisor. If a server host
+                    fails, we guarantee that restoration or repair will be
+                    complete within one hour of problem identification. If a
+                    server migration is required because of server host
+                    degradation, we will notify you at least 24 hours in advance
+                    of beginning the migration, unless we determine, in our
+                    reasonable judgment, that we must begin the migration sooner
+                    to protect your server data. Either way, we guarantee that
+                    the migration will be complete within five hours of the time
+                    that we begin the migration and less than 24 hours depending
+                    on the restore size. El Delta proactively monitors host
+                    uptime. The results of these monitoring systems shall
+                    provide the sole and exclusive determination of host uptime.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="fees">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    Four-Hour Hardware Replacement
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#fees"
+                >
+                  <div class="accordion-body text-muted">
+                    Hardware is defined as the Processor(s), RAM, hard disk(s),
+                    motherboard, NIC card and other related hardware included
+                    with the server. El Delta guarantees the functioning of all
+                    hardware components and will replace any failed component
+                    within four (4) hours of El Delta’s identification and
+                    confirmation of the problem at no cost to you. This
+                    Four-Hour Hardware Replacement covers the time to have the
+                    hardware installed, powered and operational, but excludes
+                    the time required to rebuild a disks array, reload of
+                    certain operating systems and applications and restoration
+                    of any data.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="payments">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingsix">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    Backup Responsibility
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingsix"
+                  data-bs-parent="#payments"
+                >
+                  <div class="accordion-body text-muted">
+                    You understand that you are solely responsible for ensuring
+                    that all data residing on any server managed through El
+                    Delta Cloud is backed up. El Delta assumes no responsibility
+                    for such data, any loss thereof, or inability to access any
+                    such data. In no event shall El Delta be liable for damages
+                    resulting from loss of data, profits, or for any incidental
+                    or consequential damages, even if advised of the possibility
+                    of such damage.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="suspension">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingseven">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                  >
+                    Security and Patching Responsibility
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingseven"
+                  data-bs-parent="#suspension"
+                >
+                  <div class="accordion-body text-muted">
+                    Windows: Windows updates are provided through WSUS, which
+                    will apply updates, and schedule reboots automatically for
+                    any patches that we approve. We may withhold patches if they
+                    have any reports of breaking applications or versions of
+                    Windows at our discretion. Linux: We utilize an internal
+                    mirror for patching and patches are automatically downloaded
+                    and applied; security updates concerning the kernel or
+                    requiring kernel dependencies require reboots which are the
+                    customer’s responsibility. Minor and major operating system
+                    upgrades are only provided upon customer request.
+                    Third-Party Applications: We are in no way responsible for
+                    application-level patching or upgrades but will assist
+                    customers upon request at our discretion.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="term">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingEight">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight"
+                    aria-expanded="true"
+                    aria-controls="collapseEight"
+                  >
+                    Service Credits
+                  </button>
+                </h2>
+                <div
+                  id="collapseEight"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingEight"
+                  data-bs-parent="#term"
+                >
+                  <div class="accordion-body text-muted">
+                    In the event that we fail to meet a guarantee stated above
+                    (excluding scheduled maintenance), El Delta will refund 20%
+                    of your monthly service fees for each three (3) hours of
+                    downtime experienced up to 99.99% (for all Service Credits
+                    in a given month) of the monthly service fees for those
+                    Services affected.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="termination">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingNine">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseNine"
+                    aria-expanded="true"
+                    aria-controls="collapseNine"
+                  >
+                    Service Credit Requests
+                  </button>
+                </h2>
+                <div
+                  id="collapseNine"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingNine"
+                  data-bs-parent="#termination"
+                >
+                  <div class="accordion-body text-muted">
+                    All SLA claims should be communicated via a Ticket in
+                    my.el-deltacloud.com customer portal within seven (7) days
+                    of the incident. The ticket must include all relevant
+                    information, including hostname, IP address, a full
+                    description of the incident, and any logs (if applicable).
+                    All SLA credits will be issued as credits against future
+                    invoices for services. In order to qualify for Service
+                    Credits, you must be current on all payment obligations, and
+                    not be in violation of the Terms of Service, Acceptable Use
+                    Policy or any other policies and procedures of El Delta
+                    Cloud. No Service Credits will be given for service
+                    interruptions: (i) caused by the action or failure to act by
+                    you or your personnel, (ii) due to failure of any equipment
+                    or software provided by you, (iii) which are the result of
+                    scheduled maintenance, (iv) due to a force majeure event,
+                    (v) for which you are entitled to a Service Credit for the
+                    same or contemporaneous Service Commitment failure or (vi)
+                    resulting from your breach of the Terms of Service,
+                    Acceptable Use Policy or any other policies and procedures
+                    of El Delta. Total cumulative Service Credits during any
+                    given month shall not exceed your monthly fee for those
+                    Services affected. El Delta may modify any aspect of this
+                    SLA upon thirty (30) days’ prior notice. Should you wish to
+                    terminate this Agreement as a result of such modification,
+                    you may do so by sending a notice of termination via a
+                    Ticket in my.el-deltacloud.com customer portal any time
+                    prior to the effective date of such modification and no
+                    Early Termination Fees will apply. Absent such termination
+                    notice, the modified SLA shall apply from the effective date
+                    for as long as you continue to retain Services from El
+                    Delta.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="footer-py-60 text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-phone d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Phone</h5>
+
+                      <a href="tel:+152534-468-854" class="text-foot">15950</a>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-envelope d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Email</h5>
+
+                      <a href="mailto:info@el-deltacloud.com" class="text-foot"
+                        >info@el-deltacloud.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-map-marker d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Location</h5>
+                      <p class="text-muted">
+                        7 ElNaser Road Elforsan Towers (1), <br />Nasr - City -
+                        Egypt
+                      </p>
+
+                      <a
+                        target="_blank"
+                        href="https://www.google.com/maps/dir//%D8%B4%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%AF%D9%84%D8%AA%D8%A7+%D9%84%D9%84%D8%A7%D9%86%D8%B8%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9,+El-Nasr+Road,+Masaken+Al+Mohandesin,+Nasr+City,+Egypt%E2%80%AD%E2%80%AD/@30.0710659,31.3545387,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14583fd71961f3bb:0x9317f9000815a70f!2m2!1d31.353359!2d30.071607"
+                        data-type="iframe"
+                        class="video-play-icon text-foot lightbox"
+                        >View on Google map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-py-60 footer-border">
+              <div class="row justify-content-end">
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <a href="#" class="logo-footer">
+                    <img src="images/darklogo.png" height="60" alt="" />
+                  </a>
+                  <p class="mt-3">El-Delta Cloud is Your Partner of Choice.</p>
+                  <ul
+                    class="list-unstyled social-icon foot-social-icon mb-0 mt-4"
+                  >
+                    <li class="list-inline-item">
+                      <a
+                        href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="facebook"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item">
+                      <a href="javascript:void(0)" class="rounded"
+                        ><i
+                          data-feather="twitter"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/company/el-delta-electronic-systems"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="linkedin"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-md-3 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Legal</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="terms.html" class="text-foot"
+                        >Terms of Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="policy.html" class="text-foot">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="agreements.html" class="text-foot"
+                        >Service Level Agreements</a
+                      >
+                    </li>
+                    <li>
+                      <a href="acceptablepolicy.html" class="text-foot"
+                        >Acceptable Usage Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Newsletter</h5>
+                  <p class="mt-4">
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="foot-subscribe mb-3">
+                          <label class="form-label"
+                            >Write your email
+                            <span class="text-danger">*</span></label
+                          >
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="mail"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              type="email"
+                              name="email"
+                              id="emailsubscribe"
+                              class="form-control ps-5 rounded"
+                              placeholder="Your email : "
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="d-grid">
+                          <input
+                            type="submit"
+                            id="submitsubscribe"
+                            name="send"
+                            class="btn btn-soft-primary"
+                            value="Subscribe"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Offcanvas Start -->
+    <div
+      class="offcanvas offcanvas-end bg-white shadow"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header p-4 border-bottom">
+        <h5 id="offcanvasRightLabel" class="mb-0">
+          <img
+            src="images/lightlogo.png"
+            height="60"
+            class="light-version"
+            alt=""
+          />
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="dark-version"
+            alt=""
+          />
+        </h5>
+        <button
+          type="button"
+          class="btn-close d-flex align-items-center text-dark"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="uil uil-times fs-4"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body p-4">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="images/contact.svg"
+              class="img-fluid d-block mx-auto"
+              style="max-width: 256px"
+              alt=""
+            />
+            <div class="card border-0 mt-5" style="z-index: 1">
+              <div class="card-body p-0">
+                <form
+                  method="post"
+                  name="myForm"
+                  onsubmit="return validateForm()"
+                >
+                  <p id="error-msg" class="mb-0"></p>
+                  <div id="simple-msg"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Name <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="user" class="fea icon-sm icons"></i>
+                          <input
+                            name="name"
+                            id="name"
+                            type="text"
+                            class="form-control ps-5"
+                            placeholder="Name :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Email <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="mail" class="fea icon-sm icons"></i>
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            class="form-control ps-5"
+                            placeholder="Email :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label">Subject</label>
+                        <div class="form-icon position-relative">
+                          <i data-feather="book" class="fea icon-sm icons"></i>
+                          <input
+                            name="subject"
+                            id="subject"
+                            class="form-control ps-5"
+                            placeholder="subject :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Comments <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i
+                            data-feather="message-circle"
+                            class="fea icon-sm icons clearfix"
+                          ></i>
+                          <textarea
+                            name="comments"
+                            id="comments"
+                            rows="4"
+                            class="form-control ps-5"
+                            placeholder="Message :"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="d-grid">
+                        <button
+                          type="submit"
+                          id="submit"
+                          name="send"
+                          class="btn btn-primary"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+
+      <div class="offcanvas-footer p-4 border-top text-center">
+        <ul class="list-unstyled social-icon social mb-0">
+          <li class="list-inline-item">
+            <a
+              href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="facebook" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+
+          <li class="list-inline-item mb-0">
+            <a href="" target="_blank" class="rounded"
+              ><i class="uil uil-twitter align-middle" title="twitter"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/company/el-delta-electronic-systems"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="linkedin" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+        </ul>
+        <!--end icon-->
+      </div>
+    </div>
+    <!-- Offcanvas End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fs-5"
+      ><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Style switcher -->
+    <div
+      id="style-switcher"
+      class="bg-light border p-3 pt-2 pb-2"
+      onclick="toggleSwitcher()"
+    >
+      <div>
+        <h6 class="title text-center">Select Your Color</h6>
+        <ul class="pattern">
+          <li class="list-inline-item">
+            <a
+              class="color1"
+              href="javascript: void(0);"
+              onclick="setColor('default')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color3"
+              href="javascript: void(0);"
+              onclick="setColor('purple')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color5"
+              href="javascript: void(0);"
+              onclick="setColor('skyblue')"
+            ></a>
+          </li>
+        </ul>
+
+        <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+        <ul class="text-center list-unstyled">
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2"
+              onclick="setTheme('style-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2"
+              onclick="setTheme('style')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2"
+              onclick="setTheme('style-dark-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >Dark</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark light-version t-light mt-2"
+              onclick="setTheme('style')"
+              >Light</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <a
+          href="javascript: void(0);"
+          class="settings bg-white title-bg-dark shadow d-block"
+          ><i
+            class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"
+          ></i
+        ></a>
+      </div>
+    </div>
+    <!-- end Style switcher -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gumshoe.polyfills.min.js"></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>

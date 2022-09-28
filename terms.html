@@ -1,0 +1,1930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/hosting/header.png" type="image/icon type" />
+    <title>El-Delta Cloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium Bootstrap 5 Landing Page Template"
+    />
+    <meta
+      name="keywords"
+      content="Saas, Software, multi-uses, HTML, Clean, Modern"
+    />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link
+      href="css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!-- Main Css -->
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      id="theme-opt"
+    />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="home.html">
+          <span class="logo-light-mode">
+            <img src="images/lightlogo.png" class="l-dark" height="60" alt="" />
+            <img src="images/darklogo.png" class="l-light" height="60" alt="" />
+          </span>
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="logo-dark-mode"
+            alt=""
+          />
+        </a>
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0">
+          <li class="list-inline-item mb-0">
+            <a
+              href="javascript:void(0)"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="login-btn-primary">
+                <span class="btn btn-icon btn-pills btn-soft-primary"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+              <div class="login-btn-light">
+                <span class="btn btn-icon btn-pills btn-light"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!--Login button End-->
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu nav-light">
+            <li><a href="home.html" class="sub-menu-item">Home</a></li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Services</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="services-compute.html" class="sub-menu-item"
+                    >Compute</a
+                  >
+                </li>
+                <li>
+                  <a href="services-storage.html" class="sub-menu-item"
+                    >Storage</a
+                  >
+                </li>
+                <li>
+                  <a href="services-unstructured.html" class="sub-menu-item"
+                    >Unstructured</a
+                  >
+                </li>
+                <li>
+                  <a href="services-networking.html" class="sub-menu-item"
+                    >Networking</a
+                  >
+                </li>
+                <li>
+                  <a href="services-firewall.html" class="sub-menu-item"
+                    >Firewall</a
+                  >
+                </li>
+                <li>
+                  <a href="services-recovery.html" class="sub-menu-item"
+                    >Recovery</a
+                  >
+                </li>
+                <li>
+                  <a href="services-dns.html" class="sub-menu-item">DNS</a>
+                </li>
+                <li>
+                  <a href="services-monitoring.html" class="sub-menu-item"
+                    >Monitoring</a
+                  >
+                </li>
+                <li>
+                  <a href="services-private-cloud.html" class="sub-menu-item"
+                    >Private Cloud</a
+                  >
+                </li>
+                <li>
+                  <a href="services-on-premises.html" class="sub-menu-item"
+                    >On-Premises</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Industries</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="industries-education.html" class="sub-menu-item"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-medical.html" class="sub-menu-item"
+                    >Medical</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-finance.html" class="sub-menu-item"
+                    >Finance</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-telecom.html" class="sub-menu-item"
+                    >Telecom</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-gov.html" class="sub-menu-item">GOV</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="packages.html" class="sub-menu-item">Packages</a>
+            </li>
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Support</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="support-faq.html" class="sub-menu-item">FAQ</a>
+                </li>
+                <li>
+                  <a href="support-feedback.html" class="sub-menu-item"
+                    >Feedback</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section
+      class="bg-half-170 d-table w-100"
+      style="background-image: url('images/hosting/pages.png')"
+    >
+      <div class="bg-overlay bg-gradient-primary opacity-9"></div>
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="pages-heading title-heading">
+              <h4 class="title text-white title-dark mb-4">
+                Terms of Services
+              </h4>
+              <!-- <p class="text-white-50 para-desc mx-auto mb-0">
+                We asked you for your top questions on cloud computing and have
+                provided the answers !
+              </p> -->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="position-breadcrumb">
+          <nav aria-label="breadcrumb" class="d-inline-block">
+            <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
+              <li class="breadcrumb-item">
+                <a href="home.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Terms of Services
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <div class="position-relative">
+      <div class="shape overflow-hidden text-white">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Start -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-12 d-none d-md-block">
+            <div class="rounded-md shadow p-4 sticky-bar">
+              <ul class="list-unstyled sidebar-nav mb-0 py-2" id="navmenu-nav">
+                <li class="mb-3 navbar-item">
+                  <a href="#terms" class="mouse-down h6 text-dark"
+                    >Terms of Services</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#definitions" class="mouse-down h6 text-dark"
+                    >Definitions</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#obligations" class="mouse-down h6 text-dark"
+                    >El Delta Obligations</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#yourobligations" class="mouse-down h6 text-dark"
+                    >Your Obligations</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#fees" class="mouse-down h6 text-dark">Fees</a>
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#payments" class="mouse-down h6 text-dark"
+                    >Payments</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#suspension" class="mouse-down h6 text-dark"
+                    >Suspension of Services</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#term" class="mouse-down h6 text-dark">Term</a>
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#termination" class="mouse-down h6 text-dark"
+                    >Termination for Breach</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#maintenancee" class="mouse-down h6 text-dark"
+                    >Maintenance</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#information" class="mouse-down h6 text-dark"
+                    >Confidential Information</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#warranty" class="mouse-down h6 text-dark"
+                    >Limited Warranty</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#liability" class="mouse-down h6 text-dark"
+                    >Limitation of Liability</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#indemnification" class="mouse-down h6 text-dark"
+                    >Indemnification</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#ownership" class="mouse-down h6 text-dark"
+                    >Ownership of Intellectual Property, Software, Hardware and
+                    IP Addresses</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#betaservices" class="mouse-down h6 text-dark"
+                    >Beta Services</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#miscellaneous" class="mouse-down h6 text-dark"
+                    >Miscellaneous</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-8 col-md-7 col-12">
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="terms">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Terms of Services
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#terms"
+                >
+                  <div class="accordion-body text-muted">
+                    This Terms of Service Agreement, together with the Service
+                    Level Agreement, Acceptable Use Policy, any other documents
+                    referenced herein and any amendments signed between the
+                    parties (collectively, this “Agreement”) is made between El
+                    Delta Electronic Systems, a company organized and operating
+                    under the laws of Egypt (“El Delta”) and the person or
+                    entity (collectively “you” or “your” or “I”) that executes
+                    and delivers a Service Order (“Service Order”) for the
+                    provision of services set forth on the Service Order. BY
+                    EXECUTING AND DELIVERING THE SERVICE ORDER, CLICKING THE “I
+                    ACCEPT” BUTTON, SIGNING AN AGREEMENT OR ACCESSING OR USING
+                    ANY OF THE SERVICES, YOU EXPRESSLY AGREE TO AND CONSENT TO
+                    BE BOUND BY ALL OF THE TERMS OF THIS AGREEMENT.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="definitions">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Definitions
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#definitions"
+                >
+                  <div class="accordion-body text-muted">
+                    “Acceptable Use Policy” or “AUP” means El Delta Acceptable
+                    Use Policy, posted here, as such policy may be amended from
+                    time to time by El Delta. “Beta Services” means
+                    pre-production versions of services that are offered by El
+                    Delta to certain customers for the sole purpose of testing
+                    and evaluating such services. “Confidential Information”
+                    means all confidential and proprietary information of a
+                    party disclosed either before or after the effective date of
+                    this Agreement and marked as such (if such information is
+                    capable of being so marked) regarding such party’s products
+                    and business that are disclosed by such party (the
+                    “Disclosing Party”) to the other party (the “Non-Disclosing
+                    Party”) under this Agreement including, but not limited to,
+                    the Disclosing Party’s intellectual property. Confidential
+                    Information also includes (a) the unpublished prices and
+                    other terms of service, audit and security reports, data
+                    center designs and other proprietary technology and (b) all
+                    information transmitted to or from, stored on, or otherwise
+                    processed by the servers or other devices used in the
+                    provision of the Services. Confidential Information does not
+                    include information: (i) in the public domain at the time of
+                    delivery, (ii) subsequently published or otherwise made part
+                    of the public domain through no fault of the Non-Disclosing
+                    Party or its representatives, (iii) in the Non-Disclosing
+                    Party’s possession at the time of disclosure and not
+                    acquired by the Non-Disclosing party directly or indirectly
+                    from Disclosing Party or its representatives on a
+                    confidential basis, (iv) which becomes available to the
+                    Non-Disclosing Party on a non-confidential basis from a
+                    source not under an obligation of confidentiality to the
+                    Disclosing Party, or (v) information that is independently
+                    developed without reference to the Confidential Information,
+                    as evidenced by written records maintained in the ordinary
+                    course of business. “Fees” means the Setup Fees, Recurring
+                    Fees and Non-Recurring Fees. “Initial Term” means that
+                    period of time commencing upon the Service Commencement Date
+                    and ending either (i) one (1) month thereafter or (ii) upon
+                    expiration of the Service Contract period set forth on the
+                    Service Order, if other than monthly. “Non-Recurring Fees”
+                    mean those fees set forth on the Service Order that are due
+                    when and if a particular Service is utilized, such as
+                    additional bandwidth used by you during the term of this
+                    Agreement. “Recurrence Period” means the recurring period
+                    upon which you agree to pay for the Services as set forth in
+                    the Service Order. “Recurring Fees” mean those fees set
+                    forth on the Service Order that are due on a recurring basis
+                    throughout the term of this Agreement upon each Recurrence
+                    Period. “Renewal Term” means the subsequent renewal of the
+                    Initial Term or any Renewal Term, commencing upon expiration
+                    of such Initial Term or Renewal Term and ending upon either
+                    (i) one (1) month thereafter or (ii) expiration of the
+                    Service Contract period set forth on the Service Order if
+                    other than monthly. “Service Commencement Date” means that
+                    date upon which you are given access by El Delta to begin
+                    using the Services. “Service Level Agreement” means the El
+                    Delta Service Level Agreement, posted at
+                    https://www.el-deltacloud.com/SLA, as such agreement may be
+                    amended from time to time by El Delta. “Services” means
+                    those services requested by you and provided by El Delta as
+                    set forth on a Service Order. “Setup Fees” mean those fees
+                    set forth on the Service Order that are due upon the Service
+                    Commencement Date and represent the initial fees necessary
+                    to initially set up and configure the Services. “Support”
+                    means the telephone and online technical support provided by
+                    El Delta in connection with the Services. “User \ Customer”
+                    means you or any other person or entity that you permit to
+                    access or otherwise use the Services.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="obligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    El Delta Obligations
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#obligations"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta will not begin providing the Services and Support
+                    until you have satisfied El Delta’s order approval criteria.
+                    Subject to your compliance with all of the terms and
+                    conditions of this Agreement, El Delta shall provide the
+                    Services and Support to you during the term of this
+                    Agreement in accordance with the commitments made in the
+                    Service Level Agreement and in accordance with applicable
+                    law. In the event of a failure by El Delta to meet the
+                    obligations of this Section 2, your sole and exclusive
+                    remedy and El Delta’s sole obligation are the issuances of
+                    Service Credits as set forth in the Service Level Agreement.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="yourobligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Your Obligations
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#yourobligations"
+                >
+                  <div class="accordion-body text-muted">
+                    You are solely responsible for the content of any postings,
+                    data or transmissions using Services, or any other use of
+                    the Services by a User. You are responsible for keeping your
+                    account permissions, billing, and other account information
+                    up to date using the my.el-deltacloud.com portal, and you
+                    must use reasonable security precautions in connection with
+                    your use of the Services. You agree to fully comply with all
+                    of the obligations and restrictions set forth in the
+                    Acceptable Use Policy. You agree to comply with all of the
+                    terms and conditions of this Agreement, make all payments of
+                    Fees when due and comply with any and all laws applicable to
+                    your use of the Services. You shall immediately notify El
+                    Delta of any unauthorized use of your account or any other
+                    breach of security and cooperate with El Delta’s
+                    investigation of service outages, security issues or any
+                    suspected breach of the terms and conditions of this
+                    Agreement. Certain Services are designed to help you comply
+                    with regulatory guidelines that may be applicable to you.
+                    You are responsible for understanding the regulatory
+                    requirements applicable to your business and for selecting
+                    and using El Delta Services in a manner that satisfies the
+                    requirements. Additionally, if payment card information,
+                    healthcare related information, or personally identifiable
+                    information will be transmitted to or from or stored on
+                    equipment in conjunction with the Services, you shall
+                    disclose to El Delta such fact prior to any such
+                    transmission and/or storage. Customer will not, and will not
+                    allow End Users to, (a) copy, modify, or create a derivative
+                    work of the Services; (b) reverse engineer, decompile,
+                    translate, disassemble, or otherwise attempt to extract any
+                    or all of the source code of, the Services (except to the
+                    extent such restriction is expressly prohibited by
+                    applicable law); (c) sell, resell, sublicense, transfer, or
+                    distribute any or all of the Services; or (d) access or use
+                    the Services (i) for High Risk Activities; (ii) in violation
+                    of the AUP; (iii) in a manner intended to avoid incurring
+                    Fees (including creating multiple Customer Applications,
+                    Accounts, or Projects to simulate or act as a single
+                    Customer Application, Account, or Project (respectively)) or
+                    to circumvent Service-specific usage limits or quotas; (iv)
+                    to engage in cryptocurrency mining without El Delta’s prior
+                    written approval; (v) to operate or enable any
+                    telecommunications service or in connection with any
+                    Customer Application that allows End Users to place calls or
+                    to receive calls from any public switched telephone network,
+                    unless otherwise described in the Service Specific Terms;
+                    (vi)in a manner that breaches, or causes the breach of,
+                    Export Control Laws.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="fees">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    Fees
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#fees"
+                >
+                  <div class="accordion-body text-muted">
+                    Your initial invoice will include any Setup Fees and the
+                    pro-rated portion of the Recurring Fees from the Service
+                    Commencement Date until expiration of the Recurrence Period.
+                    Thereafter, El Delta will invoice you in advance for the
+                    Recurring Fees and in arrears for the Non-Recurring Fees at
+                    the beginning of each Recurrence Period. The Recurring Fees
+                    set forth in the Service Order shall remain fixed during the
+                    Initial Term. Upon commencement of any Renewal Term, the
+                    Recurring Fees for the Services shall be subject to the
+                    published fees then in effect at the date of such renewal.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="payments">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingsix">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    Payments
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingsix"
+                  data-bs-parent="#payments"
+                >
+                  <div class="accordion-body text-muted">
+                    Unless otherwise agreed by El Delta, payment for Services is
+                    due on the invoice date. Any amount not paid when due will
+                    bear late payment interest at the rate of the lesser of 1.5%
+                    per month or the highest rate permitted by law from the due
+                    date until paid. You shall be liable for all costs and
+                    expenses incurred by El Delta in collecting amounts that are
+                    past due, including reasonable attorneys’ fees. You shall be
+                    responsible for and shall pay, and shall reimburse El Delta
+                    on request, if El Delta is required to pay, any sales, use,
+                    value-added or other tax (excluding any tax that is based on
+                    El Delta’s net income), assessment, duty, tariff, or other
+                    fee or charge of any kind or nature that is levied or
+                    imposed by any governmental authority on the Services. Any
+                    Service Credit that we may owe you, such as a credit for
+                    failure to meet a Service Commitment as set forth in the
+                    Service Level Agreement, will be applied only as a credit to
+                    Fees due from you for future Services, and will not be paid
+                    to you as a refund. You must notify El Delta in writing of
+                    any disputed Fees within fourteen (14) days of the invoice
+                    date for such Fees. If you do not notify El Delta within
+                    such period, you have waived any right to dispute such
+                    amounts, either directly or indirectly or as a set-off, or
+                    defense in any action or efforts to collect amounts due to
+                    El Delta.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="suspension">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingseven">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                  >
+                    Suspension of Services
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingseven"
+                  data-bs-parent="#suspension"
+                >
+                  <div class="accordion-body text-muted">
+                    You acknowledge and agree that El Delta may suspend
+                    providing the Services to you, in whole or in part, without
+                    liability if (i) you fail to pay the Fees due El Delta for a
+                    period of twenty-eight (28) days after the date of the
+                    invoice, (ii) you are in violation of the Acceptable Use
+                    Policy, (iii) you fail to reasonably cooperate with El
+                    Delta’s investigation of any suspected breaches of this
+                    Agreement, (iv) El Delta reasonably believes that the
+                    servers hosting the Services have been accessed or
+                    manipulated by a third party without your or El Delta’s
+                    consent, (v) El Delta reasonably believes that suspension of
+                    the Services is necessary to protect the El Delta
+                    environment generally, or (vi) El Delta is obligated to
+                    suspend Services via subpoena, court order or otherwise as
+                    required by law. El Delta may restrict access to your data
+                    stored on El Delta’s servers during any suspension. In the
+                    event of any suspension of Services pursuant to subsections
+                    (i), (ii) or (iii), you shall pay El Delta a reconnection
+                    fee of EGP3,000 as a condition of reactivation of the
+                    Services, in addition to full payment of the balance due on
+                    the account, including late payment interest, if any. IN THE
+                    EVENT El DELTA TAKES ANY ACTION PURSUANT TO THIS SECTION, IT
+                    SHALL HAVE NO LIABILITY TO YOU OR ANYONE CLAIMING BY OR
+                    THROUGH YOU. Nothing herein shall preclude El Delta from
+                    pursuing other remedies available by statute or otherwise
+                    permitted by law.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="term">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingEight">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight"
+                    aria-expanded="true"
+                    aria-controls="collapseEight"
+                  >
+                    Term
+                  </button>
+                </h2>
+                <div
+                  id="collapseEight"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingEight"
+                  data-bs-parent="#term"
+                >
+                  <div class="accordion-body text-muted">
+                    The term of this Agreement shall be the Initial Term and any
+                    Renewal Terms. This Agreement will automatically renew for
+                    successive Renewal Terms at the end of the Initial Term or
+                    any Renewal Term; provided, however, either party may
+                    terminate this Agreement for convenience upon at least
+                    thirty (30) days’ prior written notice to the other party.
+                    If the Services are canceled before the end of the
+                    then-current term of this Agreement, there will be no
+                    credits or refunds issued. Additionally, if the Recurrence
+                    Period is other than monthly and the Services are canceled
+                    before the end of the then-current term of this Agreement,
+                    you shall pay an early termination fee equal to the
+                    Recurring Fees times the number of full or partial months
+                    remaining in the term of this Agreement. The parties hereby
+                    agree and acknowledge that such Early Termination Fees are
+                    reasonable. Early Termination Fees will be due and payable
+                    upon receipt of invoice. Any Non-Renewal Notice should be
+                    communicated via a Ticket in my.el-deltacloud.com customer
+                    portal. El Delta may restrict access to your data stored on
+                    El Delta’s servers following any termination. If for any
+                    reason you as a client(s) wishes to cancel or terminate your
+                    account, You will be solely responsible for making all
+                    necessary arrangements by deleting all existing resources or
+                    active services exists on your account and securing a
+                    replacement host and moving all electronic data, graphics,
+                    images, video or text to the new service provider, You are
+                    responsible for any service fees, subscription costs and
+                    content from the moment a server or service is created or
+                    activated until it is terminated by you.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="termination">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingNine">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseNine"
+                    aria-expanded="true"
+                    aria-controls="collapseNine"
+                  >
+                    Termination for Breach
+                  </button>
+                </h2>
+                <div
+                  id="collapseNine"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingNine"
+                  data-bs-parent="#termination"
+                >
+                  <div class="accordion-body text-muted">
+                    Without limiting El Delta’s rights to suspend the Services
+                    pursuant to Section 6, El Delta shall have the right to
+                    terminate this Agreement in the event of a material breach
+                    by you upon no less than fifteen (15) days’ prior written
+                    notice and opportunity to cure such material beach.
+                    Notwithstanding the foregoing, El Delta shall have the right
+                    to terminate this Agreement immediately if you violate the
+                    Acceptable Use Policy, whether or not you subsequently cure
+                    such violation. Expiration or termination of this Agreement
+                    shall not relieve your requirement to pay Fees for Services
+                    provided prior to the effective date of termination.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="maintenancee">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTen"
+                    aria-expanded="true"
+                    aria-controls="collapseTen"
+                  >
+                    Maintenance
+                  </button>
+                </h2>
+                <div
+                  id="collapseTen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTen"
+                  data-bs-parent="#maintenancee"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta may from time to time conduct routine tests,
+                    maintenance, upgrade or repair on any part of the network,
+                    and El Delta shall use commercially reasonable efforts to
+                    give you prior notice thereof. You acknowledge that there
+                    may be instances where it is not practicable for El Delta to
+                    give advance notice of a disruption, for example, in the
+                    event of an emergency, and El Delta shall be entitled to
+                    disrupt the Services to conduct restoration and remedial
+                    works without prior notice.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="information">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingEleven">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEleven"
+                    aria-expanded="true"
+                    aria-controls="collapseEleven"
+                  >
+                    Confidential Information
+                  </button>
+                </h2>
+                <div
+                  id="collapseEleven"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingEleven"
+                  data-bs-parent="#information"
+                >
+                  <div class="accordion-body text-muted">
+                    Each party will safeguard and keep confidential all
+                    Confidential Information of the other and will return the
+                    other’s Confidential Information upon request, except to the
+                    extent further retention of such Confidential Information is
+                    necessary for a party to perform any post-termination
+                    obligations or exercise any post-termination rights under
+                    this Agreement. Each party agrees to safeguard the other’s
+                    Confidential Information using measures that are equal to
+                    the standard of performance used by the non-Disclosing party
+                    to safeguard its own Confidential Information of comparable
+                    value, but in no event less than reasonable care. Neither
+                    party will use any Confidential Information of the other
+                    party for any purpose except to implement its rights and
+                    obligations under this Agreement and as otherwise expressly
+                    contemplated by this Agreement; provided, however, that if
+                    any party or its representatives is requested or required to
+                    disclose any Confidential Information by a subpoena or court
+                    order, that party will promptly notify the other party
+                    (unless prohibited by such subpoena or order) of such
+                    request or requirement so that the other party may seek an
+                    appropriate protective order or other appropriate relief
+                    and/or waive compliance with provisions of this Agreement,
+                    and if, in the absence of such relief or waiver hereunder,
+                    any party or its representative are, in the opinion of its
+                    counsel, legally compelled to disclose Confidential
+                    Information, then that party may disclose so much of the
+                    Confidential Information to the person compelling disclosure
+                    as is, according to such opinion, required, without
+                    liability hereunder. Clients agree and accept that he will
+                    not be involved in providing any negative or neutral
+                    feedback about El Delta outside of the el-deltacloud.com
+                    domain support channel or feedback line – This includes any
+                    social networking, third party review services, paid
+                    reputation services, etc. Client agrees and accept that if
+                    he/she would to do such activity he is fully understand that
+                    his account will be suspended (server(s) permanent deletion
+                    include backup(s) where applicable) without a warning and
+                    he/she will not be entitled to any partial or full refund
+                    for any remaining credits within account.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="warranty">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwelve">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwelve"
+                    aria-expanded="true"
+                    aria-controls="collapseTwelve"
+                  >
+                    Limited Warranty
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwelve"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwelve"
+                  data-bs-parent="#warranty"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta represents that it shall provide the Services in
+                    compliance with its Service Level Agreement. EXCEPT FOR THIS
+                    WARRANTY, EL DELTA AND ITS LICENSORS DISCLAIM ANY AND ALL
+                    OTHER WARRANTIES, EXPRESS OR IMPLIED, RELATING TO THE
+                    SERVICES, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+                    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+                    PURPOSE, TITLE, AND NON-INFRINGEMENT, OR ARISING FROM A
+                    COURSE OF DEALING, USAGE OR TRADE PRACTICE. EL DELTA
+                    SPECIFICALLY DISCLAIMS ANY WARRANTY THAT THE OPERATION OF
+                    THE SERVICE WILL BE UNINTERRUPTED OR ERROR FREE. FURTHER, EL
+                    DELTA MAKES NO REPRESENTATIONS OR WARRANTIES WHATSOEVER, AND
+                    SHALL HAVE NO LIABILITY WHATSOEVER, WITH RESPECT TO THE
+                    ACCURACY, DEPENDABILITY, PRIVACY, SECURITY, AUTHENTICITY OR
+                    COMPLETENESS OF DATA TRANSMITTED OVER THE INTERNET, OR ANY
+                    INTRUSION, VIRUS, DISRUPTION, LOSS OF COMMUNICATION, LOSS OR
+                    CORRUPTION OF DATA, OR OTHER ERROR OR EVENT CAUSED OR
+                    PERMITTED BY OR INTRODUCED THROUGH THE INTERNET OR THE
+                    SERVERS UPON WHICH THE SERVICES ARE PROVIDED. YOU ARE SOLELY
+                    RESPONSIBLE FOR IMPLEMENTING ADEQUATE FIREWALL, PASSWORD AND
+                    OTHER SECURITY MEASURES TO PROTECT YOUR SYSTEMS, DATA AND
+                    APPLICATIONS FROM UNWANTED INTRUSION, WHETHER OVER THE
+                    INTERNET OR BY OTHER MEANS.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="liability">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingThirteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThirteen"
+                    aria-expanded="true"
+                    aria-controls="collapseThirteen"
+                  >
+                    Limitation of Liability
+                  </button>
+                </h2>
+                <div
+                  id="collapseThirteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingThirteen"
+                  data-bs-parent="#liability"
+                >
+                  <div class="accordion-body text-muted">
+                    EXCEPT FOR EL DELTA’S GROSS NEGLIGENCE OR WILFUL MISCONDUCT,
+                    EL DELTA’S AND ITS LICENSOR’S CUMULATIVE LIABILITY TO YOU
+                    AND ALL OTHER PARTIES FOR ANY LOSS OR DAMAGES RESULTING FROM
+                    ANY CLAIMS, DEMANDS, OR ACTIONS ARISING OUT OF OR RELATING
+                    TO THIS AGREEMENT OR THE USE OF THE SERVICES OR ANY FAILURE
+                    OR DELAY IN DELIVERING THE SERVICES SHALL NOT EXCEED THE
+                    TOTAL FEES PAID BY YOU DURING THE PERIOD OF THREE (3) MONTHS
+                    IMMEDIATELY PRECEDING THE DATE ON WHICH THE EVENT GIVING
+                    RISE TO THE CLAIM OCCURRED OR THE PRORATA EQUIVALENT IF THE
+                    RECURRENCE PERIOD IS ANNUAL. EXCEPT TO THE EXTENT SET FORTH
+                    IN THE SERVICE LEVEL AGREEMENT, EL DELTA SHALL HAVE NO
+                    LIABILITY SHOULD THERE BE ANY DELAY IN THE PROVISION OF THE
+                    SERVICE. EL DELTA AND ITS LICENSORS SHALL NOT BE LIABLE FOR
+                    ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, PUNITIVE
+                    OR OTHER INDIRECT DAMAGES, OR FOR LOST PROFITS OR LOST DATA
+                    ARISING OUT OF THE USE OR INABILITY TO USE THE SERVICES OR
+                    ANY DATA SUPPLIED THEREWITH OR ANY FAILURE OR DELAY IN
+                    DELIVERING THE SERVICES, EVEN IF EL DELTA HAS BEEN ADVISED
+                    OF THE POSSIBILITY OF SUCH DAMAGES. YOU ACKNOWLEDGE AND
+                    AGREE THAT UNDER NO CIRCUMSTANCE SHALL EL DELTA ASSUME ANY
+                    LIABILITY OR RESPONSIBILITY TO YOU FOR SUSPENSION OF SERVICE
+                    TO THE EXTENT PERMITTED BY THIS AGREEMENT.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="indemnification">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFourteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFourteen"
+                    aria-expanded="true"
+                    aria-controls="collapseFourteen"
+                  >
+                    Indemnification
+                  </button>
+                </h2>
+                <div
+                  id="collapseFourteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFourteen"
+                  data-bs-parent="#indemnification"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta shall defend, indemnify and hold you, your
+                    affiliates or any of your or their respective employees,
+                    agents or suppliers, harmless from and against any and all
+                    costs, liabilities, judgments, actions, losses and expenses
+                    (including, but not limited to, reasonable attorneys’ fees
+                    and fees of experts) (collectively, “Losses”) arising out of
+                    any threatened or actual claim, suit, action, arbitration or
+                    proceeding (collectively, “Claims”) by any third party
+                    arising out of or relating to (i) El Delta’s gross
+                    negligence or willful misconduct or (ii) a claim that the
+                    Services as provided by El Delta under this Agreement
+                    infringe upon the United States patent or copyright of a
+                    third party; provided that (a) you give El Delta prompt
+                    written notice of the claim, (b) you permit El Delta sole
+                    control over the defense and settlement of the claim, and
+                    (c) you reasonably cooperate with El Delta in the defense
+                    and/or settlement of the claim. You shall defend, indemnify
+                    and hold El Delta, its affiliates or any of its respective
+                    employees, agents or suppliers, harmless from and against
+                    any and all Losses arising out of or relating to (i) your
+                    gross negligence or willful misconduct or (ii) your
+                    violation of the Acceptable Use Policy or the law; provided
+                    that (a) El Delta gives your prompt written notice of the
+                    claim, (b) El Delta permits you sole control over the
+                    defense and settlement of the claim, and (c) El Delta
+                    reasonably cooperates with you in the defense and/or
+                    settlement of the claim. Your obligation under this Section
+                    13 includes claims arising out of acts or omissions by your
+                    employees, Users and any other person who gains access to
+                    the Services as a result of your failure to use reasonable
+                    security measures.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="ownership">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFifteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFifteen"
+                    aria-expanded="true"
+                    aria-controls="collapseFifteen"
+                  >
+                    Ownership of Intellectual Property, Software, Hardware and
+                    IP Addresses
+                  </button>
+                </h2>
+                <div
+                  id="collapseFifteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFifteen"
+                  data-bs-parent="#ownership"
+                >
+                  <div class="accordion-body text-muted">
+                    Each of us shall retain all right, title and interest in and
+                    to each party’s respective intellectual property rights,
+                    including without limitation, all patents, inventions,
+                    trademarks, copyrights and trade secrets. Any intellectual
+                    property used, developed or otherwise reduced to practice in
+                    providing the Services to you shall be the sole and
+                    exclusive property of El Delta and/or its licensors, unless
+                    we specifically agree in writing otherwise. You acknowledge
+                    and agree that you do not acquire any ownership interest in
+                    any of the servers or other hardware used to provide the
+                    Services hereunder. Similarly, we do not acquire any
+                    ownership interest in the content or data that you store on
+                    the servers or transmit via the Services. You acknowledge
+                    and agree that third-party software and hardware are used in
+                    the provision of Services. Accordingly, you agree to abide
+                    by the terms and conditions of any end user licenses or
+                    other agreements relating to the use of such hardware or
+                    software. At El Delta we do protect intellectual property
+                    and privacy of respective owner and fight piracy as per the
+                    governing laws – Every client accepts to protect that as
+                    well and agrees to pay EGP500 as a fine for first complaint
+                    that El Delta would receive any documented complaint to
+                    cover administrative cost to handle such complaint. Client
+                    understands and agrees that the fine for second offense
+                    would have a fine of EGP1,000 and account will be
+                    permanently suspended upon receiving third complaint, Client
+                    understands and agrees that any fine paid or withdrawn from
+                    client account is non refundable and client revoke his
+                    rights to dispute any claim against those fines, El Delta
+                    reserves the right to protect the intellectual property of
+                    respective owners and based on this agreement clients will
+                    accepts and agreed to protect the same and will not be
+                    involved directly or indirectly in using El Delta Cloud
+                    network to distribute any content that they don’t have the
+                    rights in writing to do so. Privacy would be protecting the
+                    integrity of assigned resources and avoid being involved in
+                    any mass abusive action such as denial of service attacks,
+                    BOTNET, phishing, SQL injections, social engineering or
+                    scanning schemes. You acknowledge and agree that any IP
+                    addresses that El Delta may assign to you in connection with
+                    the Services are registered to and owed by El Delta and upon
+                    any expiration or termination of this Agreement, you agree
+                    to release and cease using any such IP addresses.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="betaservices">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingsixteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsesixteen"
+                    aria-expanded="true"
+                    aria-controls="collapsesixteen"
+                  >
+                    Beta Services
+                  </button>
+                </h2>
+                <div
+                  id="collapsesixteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingsixteen"
+                  data-bs-parent="#betaservices"
+                >
+                  <div class="accordion-body text-muted">
+                    If you elect to participate in any evaluation or test of El
+                    Delta Beta Services, then you acknowledge that such Beta
+                    Services are provided “AS IS, AS AVAILABLE” with no warranty
+                    whatsoever. To the extent permitted by applicable law, El
+                    Delta disclaims any and all warranties with respect to the
+                    Beta Services, including the implied warranties of
+                    merchantability, fitness for a particular purpose, and
+                    non-infringement. You acknowledge that the Beta Services are
+                    a pre-release, pre-production version and may not work
+                    properly, and that your use of the Beta Services may expose
+                    you to unusual risks of operational failures. You should not
+                    use Beta Services in a live production environment, and you
+                    must not use the Beta Services in any hazardous
+                    environments, life support, or weapons systems. You agree to
+                    provide prompt feedback regarding your experience with the
+                    Beta Services in a form reasonably requested by us,
+                    including information necessary to enable us to duplicate
+                    errors or problems you may experience. You agree that all
+                    information regarding your beta test, including your
+                    experience with and opinions regarding the Beta Services, is
+                    “Confidential Information” of El Delta, as defined in these
+                    Terms of Service, and may not be disclosed to a third party
+                    or used for any purpose other than providing feedback to El
+                    Delta. You agree that we may use your feedback for any
+                    purpose whatsoever, including product development purposes.
+                    At our request you will provide us with comments that we may
+                    use publicly for press materials and marketing collateral.
+                    Any intellectual property inherent in your feedback or
+                    arising from your testing of the Beta Services shall be
+                    owned exclusively by El Delta. The commercially released
+                    version of the Beta Services may change substantially from
+                    the pre-release version, and programs that use or run with
+                    the pre-release version may not work with the commercial
+                    release or subsequent releases. You are not entitled to any
+                    Service Credits under our Service Level Agreement for
+                    downtime or other problems that may result from your use of
+                    the Beta Services. Subject to the foregoing limitations, the
+                    maximum aggregate liability of El Delta and any of its
+                    employees, agents, affiliates, or suppliers, under any
+                    theory of law (including breach of contract, tort, strict
+                    liability, and infringement) for harm to you arising from
+                    your use of the Beta Services shall be a payment of money
+                    not to exceed Two Thousand Egyptian Pounds EGP2,000. We may
+                    terminate the Beta Services at any time, in our sole
+                    discretion.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="miscellaneous">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingseventeen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseseventeen"
+                    aria-expanded="true"
+                    aria-controls="collapseseventeen"
+                  >
+                    Miscellaneous
+                  </button>
+                </h2>
+                <div
+                  id="collapseseventeen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingseventeen"
+                  data-bs-parent="#miscellaneous"
+                >
+                  <div class="accordion-body text-muted">
+                    Non-Solicitation. During the term of this Agreement and for
+                    a period of one (1) year thereafter, you shall not solicit
+                    or hire the services of any employee or subcontractor of El
+                    Delta without the prior written consent of El Delta. Force
+                    Majeure. El Delta shall not be deemed to be in breach of
+                    this Agreement and shall have no liability hereunder if its
+                    obligations are delayed or prevented by any reason of any
+                    act of God, war, terrorism, fire, natural disaster,
+                    accident, riots, acts of government, shortage of materials
+                    or supplies, failure of any transportation or communication
+                    system, non-performance of any of your agents or your
+                    third-party providers (including, without limitation, the
+                    failure or performance of common carriers, interchange
+                    carriers, local exchange carriers, internet service
+                    providers, suppliers, subcontractors) or any other cause
+                    beyond its reasonable control. By creating an account – You
+                    confirm that you read and agree to our terms of service – We
+                    reserve the right to protect our network from SPAM,
+                    Fraudulent activities and Abuse – All accounts are subject
+                    to in-depth identity verification which may include but not
+                    limited to requesting copy of multiple government issued
+                    photo identification documents as well as billing address
+                    verifications to match payment received – In cases where
+                    credit card is used as a form of payment – We may also
+                    require photo copy of the front and back of the card used on
+                    client’s account – Client can mask most of the numbers
+                    leaving the last four digits unmasked as they are used by El
+                    Delta’s verification team. El Delta is a pre-paid service
+                    model and all transactions are non-refundable, No partial or
+                    full refunds are to be issued to any account that was used
+                    for adding credits, operation software licenses or on-demand
+                    services provided by El Delta’s support team. Notice of
+                    Claim and Filing of Suit. You must present any claim in
+                    writing to El Delta within a reasonable time, and in no
+                    event longer than sixty (60) days after the event for which
+                    the claim is presented so as to permit the parties to
+                    attempt to resolve the claim. No action may be maintained
+                    against El Delta under this Agreement, unless timely written
+                    claim has been given as provided above. El Delta have zero
+                    tolerance to SPAM , Using servers for mass mailing or
+                    marketing purposes are strictly prohibited, therefore e-mail
+                    ports are blocked by default and only enabled for fully
+                    verified accounts and this privileges are allowed or blocked
+                    at its full discretion, Every client accept to protect that
+                    as well and agrees to pay EGP500 as a fine for first SPAM
+                    related complaint that El Delta would receive or any
+                    documented complaint to cover administrative cost to handle
+                    such complaint.. Client understands and agrees that the fine
+                    for second offense would have a fine of EGP1,000 and account
+                    will be permanently suspended upon receiving third
+                    complaint. Notices. Except to the extent that notices may be
+                    sent by electronic mail as specifically set forth in this
+                    Agreement, notices under this Agreement will be sufficient
+                    only if (i) mailed by certified or registered mail, return
+                    receipt requested, (ii) sent by internationally recognized
+                    overnight carrier or (iii) personally delivered. Notices
+                    shall be deemed delivered upon receipt by the other party.
+                    Notices to you shall be sent to the mailing address set
+                    forth on the account tab in your my.el-deltacloud.com
+                    customer portal. Notices to El Delta shall be sent to El
+                    Delta Electronic Systems, 7 El Nasr Street, Forsan Tower,
+                    Nasr City, Cairo, Egypt, Attn: Legal. Either party may
+                    change their notices address by written notice to the other
+                    party. Survival. The provisions of Sections 1, 10, 11, 12,
+                    13, 14 and 16 shall survive any termination or expiration of
+                    this Agreement. Modification; Authority; Assignment. Without
+                    limiting El Delta’s rights to modify the Acceptable Use
+                    Policy or Service Level Agreement as set forth therein, El
+                    Delta may modify any aspect of this Agreement upon thirty
+                    (30) days’ prior notice. Should you wish to terminate this
+                    Agreement as a result of such modification, you may do so by
+                    sending a notice of termination via a Ticket in
+                    my.el-deltacloud.com customer portal any time prior to the
+                    effective date of such modification and no Early Termination
+                    Fees will apply. Otherwise, such modification will remain in
+                    effect for the remaining term of this Agreement. You
+                    acknowledge that you have the authority to enter in to this
+                    Agreement on behalf of your company and that you may
+                    authorize other individuals to purchase additional services.
+                    This Agreement binds any of your authorized users, as well
+                    as your heirs, executors, successors, and assigns. This
+                    Agreement may not be assigned by you without the prior
+                    written consent of El Delta, which shall not be unreasonably
+                    withheld or delayed. Governing Law; Jurisdiction. This
+                    Agreement is governed by the laws of the Arab Republic of
+                    Egypt. You hereby submit to the exclusive jurisdiction of
+                    the courts of Cairo; provided, however, that El Delta shall
+                    have the right to institute judicial proceedings against you
+                    or anyone acting by, through or under you, in other
+                    jurisdictions in order to enforce El Delta’s rights
+                    hereunder through reformation of contract, specific
+                    performance, injunction or similar equitable relief.
+                    General. This Agreement, together with the Service Level
+                    Agreement, Acceptable Use Policy, any other documents
+                    referenced herein and any amendments signed between the
+                    parties, constitutes the entire understanding between El
+                    Delta and you with respect to subject matter hereof. Terms
+                    and conditions as set forth in any purchase order which
+                    differ from, conflict with, or are not included in this
+                    Agreement, shall not become part of this Agreement unless
+                    specifically accepted by El Delta in writing.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="footer-py-60 text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-phone d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Phone</h5>
+
+                      <a href="tel:+152534-468-854" class="text-foot">15950</a>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-envelope d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Email</h5>
+
+                      <a href="mailto:info@el-deltacloud.com" class="text-foot"
+                        >info@el-deltacloud.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-map-marker d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Location</h5>
+                      <p class="text-muted">
+                        7 ElNaser Road Elforsan Towers (1), <br />Nasr - City -
+                        Egypt
+                      </p>
+
+                      <a
+                        target="_blank"
+                        href="https://www.google.com/maps/dir//%D8%B4%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%AF%D9%84%D8%AA%D8%A7+%D9%84%D9%84%D8%A7%D9%86%D8%B8%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9,+El-Nasr+Road,+Masaken+Al+Mohandesin,+Nasr+City,+Egypt%E2%80%AD%E2%80%AD/@30.0710659,31.3545387,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14583fd71961f3bb:0x9317f9000815a70f!2m2!1d31.353359!2d30.071607"
+                        data-type="iframe"
+                        class="video-play-icon text-foot lightbox"
+                        >View on Google map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-py-60 footer-border">
+              <div class="row justify-content-end">
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <a href="#" class="logo-footer">
+                    <img src="images/darklogo.png" height="60" alt="" />
+                  </a>
+                  <p class="mt-3">El-Delta Cloud is Your Partner of Choice.</p>
+                  <ul
+                    class="list-unstyled social-icon foot-social-icon mb-0 mt-4"
+                  >
+                    <li class="list-inline-item">
+                      <a
+                        href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="facebook"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item">
+                      <a href="javascript:void(0)" class="rounded"
+                        ><i
+                          data-feather="twitter"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/company/el-delta-electronic-systems"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="linkedin"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-md-3 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Legal</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="terms.html" class="text-foot"
+                        >Terms of Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="policy.html" class="text-foot">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="agreements.html" class="text-foot"
+                        >Service Level Agreements</a
+                      >
+                    </li>
+                    <li>
+                      <a href="acceptablepolicy.html" class="text-foot"
+                        >Acceptable Usage Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Newsletter</h5>
+                  <p class="mt-4">
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="foot-subscribe mb-3">
+                          <label class="form-label"
+                            >Write your email
+                            <span class="text-danger">*</span></label
+                          >
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="mail"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              type="email"
+                              name="email"
+                              id="emailsubscribe"
+                              class="form-control ps-5 rounded"
+                              placeholder="Your email : "
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="d-grid">
+                          <input
+                            type="submit"
+                            id="submitsubscribe"
+                            name="send"
+                            class="btn btn-soft-primary"
+                            value="Subscribe"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Offcanvas Start -->
+    <div
+      class="offcanvas offcanvas-end bg-white shadow"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header p-4 border-bottom">
+        <h5 id="offcanvasRightLabel" class="mb-0">
+          <img
+            src="images/lightlogo.png"
+            height="60"
+            class="light-version"
+            alt=""
+          />
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="dark-version"
+            alt=""
+          />
+        </h5>
+        <button
+          type="button"
+          class="btn-close d-flex align-items-center text-dark"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="uil uil-times fs-4"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body p-4">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="images/contact.svg"
+              class="img-fluid d-block mx-auto"
+              style="max-width: 256px"
+              alt=""
+            />
+            <div class="card border-0 mt-5" style="z-index: 1">
+              <div class="card-body p-0">
+                <form
+                  method="post"
+                  name="myForm"
+                  onsubmit="return validateForm()"
+                >
+                  <p id="error-msg" class="mb-0"></p>
+                  <div id="simple-msg"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Name <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="user" class="fea icon-sm icons"></i>
+                          <input
+                            name="name"
+                            id="name"
+                            type="text"
+                            class="form-control ps-5"
+                            placeholder="Name :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Email <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="mail" class="fea icon-sm icons"></i>
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            class="form-control ps-5"
+                            placeholder="Email :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label">Subject</label>
+                        <div class="form-icon position-relative">
+                          <i data-feather="book" class="fea icon-sm icons"></i>
+                          <input
+                            name="subject"
+                            id="subject"
+                            class="form-control ps-5"
+                            placeholder="subject :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Comments <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i
+                            data-feather="message-circle"
+                            class="fea icon-sm icons clearfix"
+                          ></i>
+                          <textarea
+                            name="comments"
+                            id="comments"
+                            rows="4"
+                            class="form-control ps-5"
+                            placeholder="Message :"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="d-grid">
+                        <button
+                          type="submit"
+                          id="submit"
+                          name="send"
+                          class="btn btn-primary"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+
+      <div class="offcanvas-footer p-4 border-top text-center">
+        <ul class="list-unstyled social-icon social mb-0">
+          <li class="list-inline-item">
+            <a
+              href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="facebook" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+
+          <li class="list-inline-item mb-0">
+            <a href="" target="_blank" class="rounded"
+              ><i class="uil uil-twitter align-middle" title="twitter"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/company/el-delta-electronic-systems"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="linkedin" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+        </ul>
+        <!--end icon-->
+      </div>
+    </div>
+    <!-- Offcanvas End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fs-5"
+      ><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Style switcher -->
+    <div
+      id="style-switcher"
+      class="bg-light border p-3 pt-2 pb-2"
+      onclick="toggleSwitcher()"
+    >
+      <div>
+        <h6 class="title text-center">Select Your Color</h6>
+        <ul class="pattern">
+          <li class="list-inline-item">
+            <a
+              class="color1"
+              href="javascript: void(0);"
+              onclick="setColor('default')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color3"
+              href="javascript: void(0);"
+              onclick="setColor('purple')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color5"
+              href="javascript: void(0);"
+              onclick="setColor('skyblue')"
+            ></a>
+          </li>
+        </ul>
+
+        <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+        <ul class="text-center list-unstyled">
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2"
+              onclick="setTheme('style-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2"
+              onclick="setTheme('style')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2"
+              onclick="setTheme('style-dark-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >Dark</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark light-version t-light mt-2"
+              onclick="setTheme('style')"
+              >Light</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <a
+          href="javascript: void(0);"
+          class="settings bg-white title-bg-dark shadow d-block"
+          ><i
+            class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"
+          ></i
+        ></a>
+      </div>
+    </div>
+    <!-- end Style switcher -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gumshoe.polyfills.min.js"></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>

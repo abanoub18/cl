@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/hosting/header.png" type="image/icon type" />
+    <title>El-Delta Cloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium Bootstrap 5 Landing Page Template"
+    />
+    <meta
+      name="keywords"
+      content="Saas, Software, multi-uses, HTML, Clean, Modern"
+    />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link
+      href="css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!-- Main Css -->
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      id="theme-opt"
+    />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="home.html">
+          <span class="logo-light-mode">
+            <img src="images/lightlogo.png" class="l-dark" height="60" alt="" />
+            <img src="images/darklogo.png" class="l-light" height="60" alt="" />
+          </span>
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="logo-dark-mode"
+            alt=""
+          />
+        </a>
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0">
+          <li class="list-inline-item mb-0">
+            <a
+              href="javascript:void(0)"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="login-btn-primary">
+                <span class="btn btn-icon btn-pills btn-soft-primary"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+              <div class="login-btn-light">
+                <span class="btn btn-icon btn-pills btn-light"
+                  ><i data-feather="message-circle" class="fea icon-sm"></i
+                ></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!--Login button End-->
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu nav-light">
+            <li><a href="home.html" class="sub-menu-item">Home</a></li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Services</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="services-compute.html" class="sub-menu-item"
+                    >Compute</a
+                  >
+                </li>
+                <li>
+                  <a href="services-storage.html" class="sub-menu-item"
+                    >Storage</a
+                  >
+                </li>
+                <li>
+                  <a href="services-unstructured.html" class="sub-menu-item"
+                    >Unstructured</a
+                  >
+                </li>
+                <li>
+                  <a href="services-networking.html" class="sub-menu-item"
+                    >Networking</a
+                  >
+                </li>
+                <li>
+                  <a href="services-firewall.html" class="sub-menu-item"
+                    >Firewall</a
+                  >
+                </li>
+                <li>
+                  <a href="services-recovery.html" class="sub-menu-item"
+                    >Recovery</a
+                  >
+                </li>
+                <li>
+                  <a href="services-dns.html" class="sub-menu-item">DNS</a>
+                </li>
+                <li>
+                  <a href="services-monitoring.html" class="sub-menu-item"
+                    >Monitoring</a
+                  >
+                </li>
+                <li>
+                  <a href="services-private-cloud.html" class="sub-menu-item"
+                    >Private Cloud</a
+                  >
+                </li>
+                <li>
+                  <a href="services-on-premises.html" class="sub-menu-item"
+                    >On-Premises</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Industries</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="industries-education.html" class="sub-menu-item"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-medical.html" class="sub-menu-item"
+                    >Medical</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-finance.html" class="sub-menu-item"
+                    >Finance</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-telecom.html" class="sub-menu-item"
+                    >Telecom</a
+                  >
+                </li>
+                <li>
+                  <a href="industries-gov.html" class="sub-menu-item">GOV</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="packages.html" class="sub-menu-item">Packages</a>
+            </li>
+            <li class="has-submenu parent-menu-item">
+              <a href="javascript:void(0)">Support</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href="support-faq.html" class="sub-menu-item">FAQ</a>
+                </li>
+                <li>
+                  <a href="support-feedback.html" class="sub-menu-item"
+                    >Feedback</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section
+      class="bg-half-170 d-table w-100"
+      style="background-image: url('images/hosting/pages.png')"
+    >
+      <div class="bg-overlay bg-gradient-primary opacity-9"></div>
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="pages-heading title-heading">
+              <h4 class="title text-white title-dark mb-4">
+                Acceptable Usage Policy
+              </h4>
+              <!-- <p class="text-white-50 para-desc mx-auto mb-0">
+                We asked you for your top questions on cloud computing and have
+                provided the answers !
+              </p> -->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="position-breadcrumb">
+          <nav aria-label="breadcrumb" class="d-inline-block">
+            <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
+              <li class="breadcrumb-item">
+                <a href="home.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Acceptable Usage Policy
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <div class="position-relative">
+      <div class="shape overflow-hidden text-white">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Start -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-12 d-none d-md-block">
+            <div class="rounded-md shadow p-4 sticky-bar">
+              <ul class="list-unstyled sidebar-nav mb-0 py-2" id="navmenu-nav">
+                <li class="mb-3 navbar-item">
+                  <a href="#terms" class="mouse-down h6 text-dark"
+                    >Acceptable Usage Policy</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#definitions" class="mouse-down h6 text-dark"
+                    >Illegal Use</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#obligations" class="mouse-down h6 text-dark"
+                    >Offensive Content</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#yourobligations" class="mouse-down h6 text-dark"
+                    >Denial of Service</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#fees" class="mouse-down h6 text-dark">Fees</a>
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#payments" class="mouse-down h6 text-dark"
+                    >Server Abuse</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#suspension" class="mouse-down h6 text-dark">IRC</a>
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#term" class="mouse-down h6 text-dark">Term</a>
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#termination" class="mouse-down h6 text-dark"
+                    >Proxies</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#maintenancee" class="mouse-down h6 text-dark"
+                    >Game Servers</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#information" class="mouse-down h6 text-dark"
+                    >Fraudulent Activities</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#warranty" class="mouse-down h6 text-dark"
+                    >Distribution of Malware</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#liability" class="mouse-down h6 text-dark"
+                    >Phishing</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#indemnification" class="mouse-down h6 text-dark"
+                    >HYIP or Ponzi Schemes</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#ownership" class="mouse-down h6 text-dark"
+                    >Vulnerability Monitoring and Testing</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#betaservices" class="mouse-down h6 text-dark"
+                    >IP Address Usage</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#miscellaneous" class="mouse-down h6 text-dark"
+                    >Bulk Mail</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#unsolicited" class="mouse-down h6 text-dark"
+                    >Unsolicited Mail</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#messagesource" class="mouse-down h6 text-dark"
+                    >Message Source</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#emailabuse" class="mouse-down h6 text-dark"
+                    >Email Abuse Complaints</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#blacklisting" class="mouse-down h6 text-dark"
+                    >Blacklisting/Retaliation</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#useNet" class="mouse-down h6 text-dark"
+                    >UseNet SPAM</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#contactInformation" class="mouse-down h6 text-dark"
+                    >Contact Information Filed with Domain Name Registrar</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#deltaAdministrative" class="mouse-down h6 text-dark"
+                    >El Delta Administrative Access</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#disclosure" class="mouse-down h6 text-dark"
+                    >Disclosure to Law Enforcement</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#reporting" class="mouse-down h6 text-dark"
+                    >Reporting Violation of the Acceptable Use Policy</a
+                  >
+                </li>
+                <li class="mb-3 navbar-item">
+                  <a href="#resolution" class="mouse-down h6 text-dark"
+                    >Table A: Resolution Process for Violations of El Delta’s
+                    Acceptable Use Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-8 col-md-7 col-12">
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="terms">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Acceptable Usage Policy
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#terms"
+                >
+                  <div class="accordion-body text-muted">
+                    This Acceptable Use Policy (the “Policy” or “AUP”) is an
+                    integral part of your agreement with El Delta Electronic
+                    Systems, a company organized and operating under the laws of
+                    Egypt (“El Delta”) for the provision of services
+                    (collectively the “Services”) set forth on the Service
+                    Order. This Policy is designed to help protect El Delta’s
+                    customers from irresponsible and/or illegal activities. The
+                    Policy is a non-exclusive list of the actions prohibited by
+                    El Delta, and El Delta reserves the right to modify the
+                    Policy at any time, effective upon notice to you. El Delta
+                    reserves the sole and absolute right to interpret, apply,
+                    define and implement this Policy.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="definitions">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Illegal Use
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#definitions"
+                >
+                  <div class="accordion-body text-muted">
+                    Any use of El Delta Services in a manner which is defined or
+                    deemed to be statutorily illegal is a direct violation of El
+                    Delta’s AUP. This includes, but is not limited to: death
+                    threats, terroristic threats, threats of harm to another
+                    individual, multi-level marketing schemes, “Ponzi schemes”,
+                    invasion of privacy, credit card fraud, racketeering,
+                    defamation, slander, and other common illegal activities.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="obligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    Offensive Content
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#obligations"
+                >
+                  <div class="accordion-body text-muted">
+                    You may not use any El Delta Cloud Service to distribute
+                    content or links to content that El Delta reasonably
+                    believes: Constitutes, depicts, fosters, promotes or relates
+                    in any manner to adult content, including, without
+                    limitation, pornography, bestiality, or non-consensual sex
+                    acts; Is excessively violent, incites violence, threatens
+                    violence or contains harassing content or hate speech; Is
+                    unfair or deceptive under the consumer protection laws of
+                    Egypt, including chain letters and pyramid schemes; Is
+                    defamatory or violates a person’s privacy; Creates a risk to
+                    a person’s safety or health, creates a risk to public safety
+                    or health, compromises national security or interferes with
+                    an investigation by law enforcement; Improperly exposes
+                    trade secrets or other confidential or proprietary
+                    information of another person; Is intended to assist others
+                    in defeating technical copyright protections; Infringes on
+                    another person’s copyright, trade or service mark, patent or
+                    other property right; Promotes illegal drugs, violates
+                    applicable laws, relates to illegal gambling or illegal arms
+                    trafficking; Is otherwise illegal or solicits conduct that
+                    is illegal under laws applicable to you or to El Delta; Is
+                    otherwise malicious or fraudulent, or may result in
+                    retaliation against El Delta by offended recipients; or Is
+                    intended to harass or threaten.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="yourobligations">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Denial of Service
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#yourobligations"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta absolutely prohibits the use of services or network
+                    services for the origination or control of denial of service
+                    (“DoS”) attacks or distributed denial of service (“DDOS”)
+                    attacks. Any relation to DoS or DDoS type activity is a
+                    direct violation of El Delta’s AUP.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="fees">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    Server Abuse
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#fees"
+                >
+                  <div class="accordion-body text-muted">
+                    Any attempts to undermine or cause harm to a El Delta Cloud
+                    infrastructure or subscriber of El Delta Cloud is strictly
+                    prohibited including, but not limited to: Logging into a
+                    server or account that you are not authorized to access;
+                    Accessing data or taking any action to obtain services or
+                    information not intended for you or your use without the
+                    consent of the owner; Tampering, hacking, modifying, or
+                    otherwise corrupting or breaching security or authentication
+                    measures without proper authorization; Transmitting material
+                    that contains viruses, Trojan horses, worms, time bombs,
+                    cancelbots or other computer programming routines or engines
+                    with the intent or effect of damaging, destroying,
+                    disrupting or otherwise impairing a computer’s functionality
+                    or the operation of the El Delta’s systems; Monitoring data
+                    or traffic on any network or system without the express
+                    authorization of the owner of the system or network;
+                    Interfering with, intercepting or expropriating any system,
+                    data or information which you do not have the right to
+                    access; and Interfering with service to any user, host or
+                    network including, without limitation, by means of
+                    overloading, “flooding,” “mailbombing,” or “crashing” any
+                    computer system. You agree that we may quarantine or delete
+                    any data stored on the El Delta Cloud network if the data is
+                    infected with a virus, or is otherwise corrupted, and has
+                    the potential to infect or corrupt the network or other
+                    customers’ data that is stored on the network.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="payments">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingsix">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    IRC
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingsix"
+                  data-bs-parent="#payments"
+                >
+                  <div class="accordion-body text-muted">
+                    We do not allow IRC, Egg Drops, BNC, or IRC bots to be
+                    operated on our servers or network. Files with references to
+                    IRC or any likeness thereof are prohibited. Also, any
+                    program that acts like an IRC server or that provide chat
+                    functions that run as background processes are not allowed.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="suspension">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingseven">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                  >
+                    Proxies
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingseven"
+                  data-bs-parent="#suspension"
+                >
+                  <div class="accordion-body text-muted">
+                    We do not allow proxy servers of any kind, whether for
+                    personal or business use. Files with references to any proxy
+                    or likeness thereof are prohibited.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="term">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingEight">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight"
+                    aria-expanded="true"
+                    aria-controls="collapseEight"
+                  >
+                    Game Servers
+                  </button>
+                </h2>
+                <div
+                  id="collapseEight"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingEight"
+                  data-bs-parent="#term"
+                >
+                  <div class="accordion-body text-muted">
+                    We do not allow game servers (dedicated game server
+                    programs) of any kind.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="termination">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingNine">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseNine"
+                    aria-expanded="true"
+                    aria-controls="collapseNine"
+                  >
+                    Fraudulent Activities
+                  </button>
+                </h2>
+                <div
+                  id="collapseNine"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingNine"
+                  data-bs-parent="#termination"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta prohibits utilizing dedicated services or network
+                    services for fraudulent activities. Participation in
+                    fraudulent activities is in direct violation of the Egyptian
+                    law and El Delta’s AUP.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="maintenancee">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTen"
+                    aria-expanded="true"
+                    aria-controls="collapseTen"
+                  >
+                    Distribution of Malware
+                  </button>
+                </h2>
+                <div
+                  id="collapseTen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTen"
+                  data-bs-parent="#maintenancee"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta prohibits the storage, distribution, fabrication,
+                    or use of malware including virus software, root kits,
+                    password crackers, adware, keystroke capture programs and
+                    other programs normally used in malicious activity;
+                    provided, however, programs used in the normal ordinary
+                    course of business are deemed acceptable. As an example, a
+                    security company hosting at El Delta analyzes the latest
+                    root kit for new security analysis/software.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="information">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingEleven">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseEleven"
+                    aria-expanded="true"
+                    aria-controls="collapseEleven"
+                  >
+                    Phishing
+                  </button>
+                </h2>
+                <div
+                  id="collapseEleven"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingEleven"
+                  data-bs-parent="#information"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta strictly prohibits any activity associated with
+                    phishing or systems designed to collect personal information
+                    (name, account numbers, user names, passwords, etc.) under
+                    false pretense. Splash pages, phishing forms, email
+                    distribution, proxy email or any relation to phishing
+                    activities will result in immediate removal.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="warranty">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwelve">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwelve"
+                    aria-expanded="true"
+                    aria-controls="collapseTwelve"
+                  >
+                    HYIP or Ponzi Schemes
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwelve"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwelve"
+                  data-bs-parent="#warranty"
+                >
+                  <div class="accordion-body text-muted">
+                    High Yield Investment Plans or Ponzi schemes with the intent
+                    to defraud end users are illegal and not allowed on the
+                    network. This includes hosting, linking and/or advertising
+                    via email websites or schemes designed to defraud.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="liability">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingThirteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThirteen"
+                    aria-expanded="true"
+                    aria-controls="collapseThirteen"
+                  >
+                    Vulnerability Monitoring and Testing
+                  </button>
+                </h2>
+                <div
+                  id="collapseThirteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingThirteen"
+                  data-bs-parent="#liability"
+                >
+                  <div class="accordion-body text-muted">
+                    You may not attempt to probe, scan, penetrate or test the
+                    vulnerability of a El Delta system, subsystem or network or
+                    to attempt to breach security or authentication measures,
+                    whether by passive or intrusive techniques, without El
+                    Delta’s express written consent.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="indemnification">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFourteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFourteen"
+                    aria-expanded="true"
+                    aria-controls="collapseFourteen"
+                  >
+                    IP Address Usage
+                  </button>
+                </h2>
+                <div
+                  id="collapseFourteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFourteen"
+                  data-bs-parent="#indemnification"
+                >
+                  <div class="accordion-body text-muted">
+                    You may only use IP addresses assigned to you by El Delta
+                    cloud in connection with your El Delta Cloud Services. You
+                    agree that if the El Delta IP addresses assigned to your
+                    account are listed on an abuse database, you will be in
+                    violation of this AUP, and El Delta may take reasonable
+                    action to protect its IP addresses, including suspension
+                    and/or termination of your Service, regardless of whether
+                    the IP addresses were listed as a result of your actions or
+                    not.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="ownership">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingFifteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFifteen"
+                    aria-expanded="true"
+                    aria-controls="collapseFifteen"
+                  >
+                    Bulk Mail
+                  </button>
+                </h2>
+                <div
+                  id="collapseFifteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingFifteen"
+                  data-bs-parent="#ownership"
+                >
+                  <div class="accordion-body text-muted">
+                    You may not use any El Delta Service to send Bulk Mail.
+                    “Bulk Mail” means email messages of similar content that are
+                    sent to more than two hundred and fifty (250) recipients.
+                    Attempts to circumvent this restriction by breaking up bulk
+                    email over time, using multiple accounts, or other means
+                    will be a violation of this restriction. A mail message sent
+                    to other users within your domain names hosted on the El
+                    Delta system is not considered Bulk Mail.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="betaservices">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingsixteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsesixteen"
+                    aria-expanded="true"
+                    aria-controls="collapsesixteen"
+                  >
+                    Unsolicited Mail
+                  </button>
+                </h2>
+                <div
+                  id="collapsesixteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingsixteen"
+                  data-bs-parent="#betaservices"
+                >
+                  <div class="accordion-body text-muted">
+                    You may not send unsolicited email. Email is unsolicited if
+                    you have no pre-existing relationship with the recipient,
+                    unless the recipient has published or otherwise provided his
+                    or her email address in a manner which implies consent to
+                    receive the email. You may not send email of any kind to a
+                    person who has indicated that they do not wish to receive
+                    it. Any such email shall comply with all laws and
+                    regulations of Information in Egypt.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="miscellaneous">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingseventeen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseseventeen"
+                    aria-expanded="true"
+                    aria-controls="collapseseventeen"
+                  >
+                    Message Source
+                  </button>
+                </h2>
+                <div
+                  id="collapseseventeen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingseventeen"
+                  data-bs-parent="#miscellaneous"
+                >
+                  <div class="accordion-body text-muted"></div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="messagesource">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingeighteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseeighteen"
+                    aria-expanded="true"
+                    aria-controls="collapseeighteen"
+                  >
+                    Message Source
+                  </button>
+                </h2>
+                <div
+                  id="collapseeighteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingeighteen"
+                  data-bs-parent="#messagesource"
+                >
+                  <div class="accordion-body text-muted">
+                    You may not obscure the source of your email in any manner,
+                    including by intentionally omitting, forging, or
+                    misrepresenting messages headers or return addresses.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="emailabuse ">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingninteen">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseninteen"
+                    aria-expanded="true"
+                    aria-controls="collapseninteen"
+                  >
+                    Email Abuse Complaints
+                  </button>
+                </h2>
+                <div
+                  id="collapseninteen"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingninteen"
+                  data-bs-parent="#emailabuse"
+                >
+                  <div class="accordion-body text-muted">
+                    Complaints from email recipients and third-party abuse
+                    agencies shall be deemed proof of the facts stated therein
+                    unless you provide compelling evidence to the contrary. El
+                    Delta shall have the right to terminate your mail service if
+                    we receive excessive or repeated complaints from your email
+                    recipients, regardless of whether you are in breach of this
+                    AUP or are otherwise at fault.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="blacklisting">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingtwenty">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwenty"
+                    aria-expanded="true"
+                    aria-controls="collapsetwenty"
+                  >
+                    Blacklisting/Retaliation
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwenty"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingtwenty"
+                  data-bs-parent="#blacklisting"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta may terminate your Services if your email address
+                    or related IP number(s) is/are blacklisted by any
+                    third-party, or El Delta is retaliated against as a result
+                    of your use of the mail system, regardless of whether you
+                    are in breach of this AUP or are otherwise at fault.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="useNet">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingtwentyone">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentyone"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentyone"
+                  >
+                    UseNet SPAM
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentyone"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingtwentyone"
+                  data-bs-parent="#useNet"
+                >
+                  <div class="accordion-body text-muted">
+                    The use of dedicated services to send, receive, forward, or
+                    post UseNet unsolicited email or posts is a direct violation
+                    of El Delta’s AUP. This includes UseNet services located
+                    within the El Delta network or unrelated third-party
+                    networks.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="contactInformation">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingtwentytwo">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentytwo"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentytwo"
+                  >
+                    Contact Information Filed with Domain Name Registrar
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentytwo"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingtwentytwo"
+                  data-bs-parent="#contactInformation"
+                >
+                  <div class="accordion-body text-muted">
+                    You must have valid and current information on file with
+                    your domain name registrar for any domain hosted on the El
+                    Delta network. You agree that if you register a DNS record
+                    or zone on El Delta managed or operated DNS servers or
+                    services for a domain of which you are not the registrant or
+                    administrative contact according to the registrar’s WHOIS
+                    system, that, upon request from the registrant or
+                    administrative contact according to the registrar’s WHOIS
+                    system, El Delta may modify, transfer, or delete such
+                    records or zones.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="deltaAdministrative">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingtwentythree">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentythree"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentythree"
+                  >
+                    El Delta Administrative Access
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentythree"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingtwentythree"
+                  data-bs-parent="#deltaAdministrative"
+                >
+                  <div class="accordion-body text-muted">
+                    You, the customer, acknowledge that to facilitate efficient
+                    server management, inventory and related activities, El
+                    Delta Cloud servers may include El Delta administrative
+                    account and password and/or a El Delta Cloud daemon. All
+                    reasonable precautions are made by El Delta to maintain the
+                    security of these tools and the privacy of client data. You
+                    will not tamper, hinder, delete or in any way change the
+                    functioning of these tools. Resellers: If you resell, rent
+                    or otherwise allow third parties to use any El Delta
+                    Services, you are responsible for use of the Services by
+                    such third parties in violation of this AUP to the same
+                    extent as if you were using El Delta Services yourself. You
+                    are also responsible for all accounting and support for your
+                    end customers.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="disclosure">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingtwentyfour">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentyfour"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentyfour"
+                  >
+                    Disclosure to Law Enforcement
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentyfour"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingtwentyfour"
+                  data-bs-parent="#disclosure"
+                >
+                  <div class="accordion-body text-muted">
+                    Occasionally, El Delta is required by law to submit customer
+                    information to law enforcement officials when presented with
+                    a valid subpoena or order from a court or governmental
+                    entity. Information requested is disclosed as directed
+                    pursuant to the subpoena or order. El Delta utilizes great
+                    care in keeping customer information safe and private and
+                    will only release information have described in the subpoena
+                    order. El Delta will notify customer of the information
+                    request to the extent permitted by the subpoena or order.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="reporting">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwentyfive">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentyfive"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentyfive"
+                  >
+                    Reporting Violation of the Acceptable Use Policy
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentyfive"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwentyfive"
+                  data-bs-parent="#reporting"
+                >
+                  <div class="accordion-body text-muted">
+                    El Delta accepts reports of alleged violations of this AUP
+                    via Report Abuse. Reports of alleged violations must be
+                    verified and include name, contact information, IP address,
+                    and description of the violation. El Delta owes no duty to
+                    third parties reporting alleged violations; provided,
+                    however, El Delta will use commercially reasonable efforts
+                    to review all verified third-party reports and will take
+                    appropriate actions as described within the resolution
+                    process as set forth in Table A below.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+            <!--terms of services-->
+
+            <div class="accordion pt-2" id="resolution">
+              <div class="accordion-item rounded shadow bg-white">
+                <h2 class="accordion-header" id="headingTwentysix">
+                  <button
+                    class="accordion-button border-0 bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsetwentysix"
+                    aria-expanded="true"
+                    aria-controls="collapsetwentysix"
+                  >
+                    Table A: Resolution Process for Violations of El Delta’s
+                    Acceptable Use Policy
+                  </button>
+                </h2>
+                <div
+                  id="collapsetwentysix"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="headingTwentysix"
+                  data-bs-parent="#resolution"
+                >
+                  <div class="accordion-body text-muted">
+                    The ultimate goal of this AUP by El Delta is to balance the
+                    rights of our customers while ensuring full compliance with
+                    this AUP. The goal of our Resolution Process is to mitigate
+                    service interruptions while resolving potential violations
+                    under this AUP. Our staff is dedicated to working with the
+                    customer in resolving potential violations. The resolution
+                    process below provides the process for resolving all
+                    potential violations. Timing for resolution differs
+                    according to the degree of the violation, the nature of the
+                    violation, involvement of law enforcement, involvement of
+                    third-party litigation, or other related factors. Overall,
+                    El Delta is dedicated to working with the customer in
+                    resolving all potential violations prior to any service
+                    interruptions. Step 1: First alleged violation of AUP: a
+                    ticket will be generated under the customer’s
+                    my.el-deltacloud.com account with information regarding the
+                    potential violation of El Delta’s AUP. This is often a
+                    fact-finding inquiry requiring further information or
+                    notifying customer of the potential violation and the
+                    required actions to resolve the issue. Step 2:
+                    Acknowledgement of violation of AUP: a ticket is generated
+                    under the customer’s my.el-deltacloud.com account with
+                    information specific to the violation. This ticket will also
+                    include any additional facts about the situation and will
+                    notify customer of the action required to resolve the
+                    violation. Step 3: Violation of AUP disregarded, not
+                    properly addressed, or continuing violation if a ticket has
+                    been disregarded, not properly addressed, or resolved by the
+                    customer for a specified period of time: El Delta engineers
+                    will turn the public network port to the specified services
+                    off. Access to the services may then be achieved through the
+                    secure private service network for customer resolution. As
+                    soon as the violation is addressed, the public access shall
+                    be restored and service will continue as normal. Step 4:
+                    Failure to address violation and resolve violation: if
+                    customer fails to address the violation AND resolve the
+                    violation, a suspension of services may occur in El Delta’s
+                    sole discretion. This is a last resort for El Delta and only
+                    results when the customer completely fails to participate in
+                    El Delta’s resolution process. A permanent suspension of
+                    services includes reclamation of all dedicated services and
+                    the destruction of customer’s data. Disclaimer: El Delta
+                    retains the right, at its sole discretion, to refuse new
+                    service to any individual, group, or business. El Delta also
+                    retains the right to discontinue service to customers with
+                    excessive and/or multiple repeated violations. No credit
+                    will be available under El Delta’s Service Level Agreement
+                    for interruptions of service resulting from AUP violations.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of terms section-->
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="footer-py-60 text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-phone d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Phone</h5>
+
+                      <a href="tel:+152534-468-854" class="text-foot">15950</a>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-envelope d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Email</h5>
+
+                      <a href="mailto:info@el-deltacloud.com" class="text-foot"
+                        >info@el-deltacloud.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="card border-0 text-center features feature-primary feature-clean bg-transparent"
+                  >
+                    <div class="icons text-center mx-auto">
+                      <i class="uil uil-map-marker d-block rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                      <h5 class="footer-head">Location</h5>
+                      <p class="text-muted">
+                        7 ElNaser Road Elforsan Towers (1), <br />Nasr - City -
+                        Egypt
+                      </p>
+
+                      <a
+                        target="_blank"
+                        href="https://www.google.com/maps/dir//%D8%B4%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%AF%D9%84%D8%AA%D8%A7+%D9%84%D9%84%D8%A7%D9%86%D8%B8%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9,+El-Nasr+Road,+Masaken+Al+Mohandesin,+Nasr+City,+Egypt%E2%80%AD%E2%80%AD/@30.0710659,31.3545387,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14583fd71961f3bb:0x9317f9000815a70f!2m2!1d31.353359!2d30.071607"
+                        data-type="iframe"
+                        class="video-play-icon text-foot lightbox"
+                        >View on Google map</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-py-60 footer-border">
+              <div class="row justify-content-end">
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <a href="#" class="logo-footer">
+                    <img src="images/darklogo.png" height="60" alt="" />
+                  </a>
+                  <p class="mt-3">El-Delta Cloud is Your Partner of Choice.</p>
+                  <ul
+                    class="list-unstyled social-icon foot-social-icon mb-0 mt-4"
+                  >
+                    <li class="list-inline-item">
+                      <a
+                        href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="facebook"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item">
+                      <a href="javascript:void(0)" class="rounded"
+                        ><i
+                          data-feather="twitter"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/company/el-delta-electronic-systems"
+                        target="_blank"
+                        class="rounded"
+                        ><i
+                          data-feather="linkedin"
+                          class="fea icon-sm fea-social"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-md-3 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Legal</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="terms.html" class="text-foot"
+                        >Terms of Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="policy.html" class="text-foot">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="agreements.html" class="text-foot"
+                        >Service Level Agreements</a
+                      >
+                    </li>
+                    <li>
+                      <a href="acceptablepolicy.html" class="text-foot"
+                        >Acceptable Usage Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Newsletter</h5>
+                  <p class="mt-4">
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="foot-subscribe mb-3">
+                          <label class="form-label"
+                            >Write your email
+                            <span class="text-danger">*</span></label
+                          >
+                          <div class="form-icon position-relative">
+                            <i
+                              data-feather="mail"
+                              class="fea icon-sm icons"
+                            ></i>
+                            <input
+                              type="email"
+                              name="email"
+                              id="emailsubscribe"
+                              class="form-control ps-5 rounded"
+                              placeholder="Your email : "
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="d-grid">
+                          <input
+                            type="submit"
+                            id="submitsubscribe"
+                            name="send"
+                            class="btn btn-soft-primary"
+                            value="Subscribe"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Offcanvas Start -->
+    <div
+      class="offcanvas offcanvas-end bg-white shadow"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header p-4 border-bottom">
+        <h5 id="offcanvasRightLabel" class="mb-0">
+          <img
+            src="images/lightlogo.png"
+            height="60"
+            class="light-version"
+            alt=""
+          />
+          <img
+            src="images/darklogo.png"
+            height="60"
+            class="dark-version"
+            alt=""
+          />
+        </h5>
+        <button
+          type="button"
+          class="btn-close d-flex align-items-center text-dark"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="uil uil-times fs-4"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body p-4">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="images/contact.svg"
+              class="img-fluid d-block mx-auto"
+              style="max-width: 256px"
+              alt=""
+            />
+            <div class="card border-0 mt-5" style="z-index: 1">
+              <div class="card-body p-0">
+                <form
+                  method="post"
+                  name="myForm"
+                  onsubmit="return validateForm()"
+                >
+                  <p id="error-msg" class="mb-0"></p>
+                  <div id="simple-msg"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Name <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="user" class="fea icon-sm icons"></i>
+                          <input
+                            name="name"
+                            id="name"
+                            type="text"
+                            class="form-control ps-5"
+                            placeholder="Name :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Your Email <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i data-feather="mail" class="fea icon-sm icons"></i>
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            class="form-control ps-5"
+                            placeholder="Email :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label">Subject</label>
+                        <div class="form-icon position-relative">
+                          <i data-feather="book" class="fea icon-sm icons"></i>
+                          <input
+                            name="subject"
+                            id="subject"
+                            class="form-control ps-5"
+                            placeholder="subject :"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label class="form-label"
+                          >Comments <span class="text-danger">*</span></label
+                        >
+                        <div class="form-icon position-relative">
+                          <i
+                            data-feather="message-circle"
+                            class="fea icon-sm icons clearfix"
+                          ></i>
+                          <textarea
+                            name="comments"
+                            id="comments"
+                            rows="4"
+                            class="form-control ps-5"
+                            placeholder="Message :"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="d-grid">
+                        <button
+                          type="submit"
+                          id="submit"
+                          name="send"
+                          class="btn btn-primary"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+
+      <div class="offcanvas-footer p-4 border-top text-center">
+        <ul class="list-unstyled social-icon social mb-0">
+          <li class="list-inline-item">
+            <a
+              href="https://m.facebook.com/El-Delta-Electronic-Systems-104005772089878/"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="facebook" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+
+          <li class="list-inline-item mb-0">
+            <a href="" target="_blank" class="rounded"
+              ><i class="uil uil-twitter align-middle" title="twitter"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/company/el-delta-electronic-systems"
+              target="_blank"
+              class="rounded"
+              ><i data-feather="linkedin" class="fea icon-sm fea-social"></i
+            ></a>
+          </li>
+        </ul>
+        <!--end icon-->
+      </div>
+    </div>
+    <!-- Offcanvas End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fs-5"
+      ><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Style switcher -->
+    <div
+      id="style-switcher"
+      class="bg-light border p-3 pt-2 pb-2"
+      onclick="toggleSwitcher()"
+    >
+      <div>
+        <h6 class="title text-center">Select Your Color</h6>
+        <ul class="pattern">
+          <li class="list-inline-item">
+            <a
+              class="color1"
+              href="javascript: void(0);"
+              onclick="setColor('default')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color3"
+              href="javascript: void(0);"
+              onclick="setColor('purple')"
+            ></a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              class="color5"
+              href="javascript: void(0);"
+              onclick="setColor('skyblue')"
+            ></a>
+          </li>
+        </ul>
+
+        <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+        <ul class="text-center list-unstyled">
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2"
+              onclick="setTheme('style-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2"
+              onclick="setTheme('style')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2"
+              onclick="setTheme('style-dark-rtl')"
+              >RTL</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >LTR</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2"
+              onclick="setTheme('style-dark')"
+              >Dark</a
+            >
+          </li>
+          <li class="d-grid">
+            <a
+              href="javascript:void(0)"
+              class="btn btn-sm btn-block btn-dark light-version t-light mt-2"
+              onclick="setTheme('style')"
+              >Light</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <a
+          href="javascript: void(0);"
+          class="settings bg-white title-bg-dark shadow d-block"
+          ><i
+            class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"
+          ></i
+        ></a>
+      </div>
+    </div>
+    <!-- end Style switcher -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gumshoe.polyfills.min.js"></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>
