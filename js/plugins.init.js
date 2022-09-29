@@ -868,6 +868,7 @@ try {
         document.cookie = `color = ${theme}`;
         document.getElementById("color-opt").href =
           "./css/colors/" + theme + ".css";
+        toggleSwitcher(false);
       } else {
         console.log("theme", theme);
 
@@ -878,7 +879,6 @@ try {
     } else {
       document.cookie = `color = default`;
     }
-    toggleSwitcher(false);
   }
 
   function setTheme(theme) {
@@ -886,6 +886,7 @@ try {
       if (theme) {
         document.cookie = `theme = ${theme}`;
         document.getElementById("theme-opt").href = "./css/" + theme + ".css";
+        toggleSwitcher(false);
       } else {
         let c = cookie("theme");
         document.getElementById("theme-opt").href = "./css/" + c + ".css";
@@ -893,7 +894,5 @@ try {
     } else {
       document.cookie = `theme = style`;
     }
-
-    toggleSwitcher(false);
   }
 } catch (error) {}
