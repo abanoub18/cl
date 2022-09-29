@@ -859,29 +859,13 @@ try {
   }
 
   function setColor(theme) {
-    if (theme) {
-      document.cookie = `color = ${theme}`;
-      document.getElementById("color-opt").href =
-        "./css/colors/" + theme + ".css";
-    } else {
-      document.cookie = `theme = default`;
-      let c = cookie("color");
-      document.getElementById("color-opt").href = "./css/colors/" + c + ".css";
-    }
+    document.getElementById("color-opt").href =
+      "./css/colors/" + theme + ".css";
     toggleSwitcher(false);
   }
 
   function setTheme(theme) {
-    console.log("theme", theme);
-    if (theme) {
-      document.cookie = `theme = ${theme}`;
-      document.getElementById("theme-opt").href = "./css/" + theme + ".css";
-      console.log("c", c);
-    } else {
-      document.cookie = `theme = style`;
-      let c = cookie("theme");
-      document.getElementById("theme-opt").href = "./css/" + c + ".css";
-    }
+    document.getElementById("theme-opt").href = "./css/" + theme + ".css";
     toggleSwitcher(false);
   }
 } catch (error) {}
