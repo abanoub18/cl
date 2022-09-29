@@ -861,11 +861,11 @@ try {
   function setColor(theme) {
     if (theme) {
       document.cookie = `color = ${theme}`;
+      document.getElementById("color-opt").href =
+        "./css/colors/" + theme + ".css";
+    } else {
       let c = cookie("color");
       document.getElementById("color-opt").href = "./css/colors/" + c + ".css";
-    } else {
-      document.getElementById("color-opt").href =
-        "./css/colors/" + "default" + ".css";
     }
     toggleSwitcher(false);
   }
@@ -874,7 +874,7 @@ try {
     console.log("theme", theme);
     if (theme) {
       document.cookie = `theme = ${theme}`;
-      document.getElementById("theme-opt").href = "./css/" + c + ".css";
+      document.getElementById("theme-opt").href = "./css/" + theme + ".css";
       console.log("c", c);
     } else {
       let c = cookie("theme");
