@@ -864,6 +864,7 @@ try {
       document.getElementById("color-opt").href =
         "./css/colors/" + theme + ".css";
     } else {
+      document.cookie = `theme = default`;
       let c = cookie("color");
       document.getElementById("color-opt").href = "./css/colors/" + c + ".css";
     }
@@ -877,6 +878,7 @@ try {
       document.getElementById("theme-opt").href = "./css/" + theme + ".css";
       console.log("c", c);
     } else {
+      document.cookie = `theme = style`;
       let c = cookie("theme");
       document.getElementById("theme-opt").href = "./css/" + c + ".css";
     }
