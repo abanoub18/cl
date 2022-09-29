@@ -871,13 +871,14 @@ try {
   }
 
   function setTheme(theme) {
+    console.log("theme", theme);
     if (theme) {
       document.cookie = `theme = ${theme}`;
+      document.getElementById("theme-opt").href = "./css/" + c + ".css";
+      console.log("c", c);
+    } else {
       let c = cookie("theme");
       document.getElementById("theme-opt").href = "./css/" + c + ".css";
-    } else {
-      document.getElementById("theme-opt").href =
-        "./css/" + "dark-style" + ".css";
     }
     toggleSwitcher(false);
   }
