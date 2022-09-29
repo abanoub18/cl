@@ -36,7 +36,7 @@
     <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
   </head>
 
-  <body>
+  <body onload="setTheme();setColor()">
     <!-- Loader -->
     <!-- <div id="preloader">
             <div id="status">
@@ -52,7 +52,7 @@
     <header id="topnav" class="defaultscroll sticky">
       <div class="container">
         <!-- Logo container-->
-        <a class="logo" href="home.html">
+        <a class="logo" href="index.html">
           <span class="logo-light-mode">
             <img src="images/lightlogo.png" class="l-dark" height="60" alt="" />
             <img src="images/darklogo.png" class="l-light" height="60" alt="" />
@@ -107,7 +107,7 @@
         <div id="navigation">
           <!-- Navigation Menu-->
           <ul class="navigation-menu nav-light">
-            <li><a href="home.html" class="sub-menu-item">Home</a></li>
+            <li><a href="index.html" class="sub-menu-item">Home</a></li>
 
             <li class="has-submenu parent-menu-item">
               <a href="javascript:void(0)">Services</a
@@ -245,7 +245,7 @@
           <nav aria-label="breadcrumb" class="d-inline-block">
             <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
               <li class="breadcrumb-item">
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
                 Privacy Policy
@@ -1138,11 +1138,7 @@
             />
             <div class="card border-0 mt-5" style="z-index: 1">
               <div class="card-body p-0">
-                <form
-                  method="post"
-                  name="myForm"
-                  onsubmit="return validateForm()"
-                >
+                <form method="post" name="myForm" onsubmit="">
                   <p id="error-msg" class="mb-0"></p>
                   <div id="simple-msg"></div>
                   <div class="row">
