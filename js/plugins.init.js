@@ -875,6 +875,7 @@ try {
         let c = cookie("color");
         document.getElementById("color-opt").href =
           "./css/colors/" + c + ".css";
+        toggleSwitcher(false);
       }
     } else {
       document.cookie = `color = default`;
@@ -890,6 +891,7 @@ try {
       } else {
         let c = cookie("theme");
         document.getElementById("theme-opt").href = "./css/" + c + ".css";
+        toggleSwitcher(false);
       }
     } else {
       document.cookie = `theme = style`;
