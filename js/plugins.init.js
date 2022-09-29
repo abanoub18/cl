@@ -859,13 +859,41 @@ try {
   }
 
   function setColor(theme) {
-    document.getElementById("color-opt").href =
-      "./css/colors/" + theme + ".css";
+    console.log("theme", theme);
+
+    if (cookie("isVisited")) {
+      if (theme) {
+        console.log("theme", theme);
+
+        document.cookie = `color = ${theme}`;
+        document.getElementById("color-opt").href =
+          "./css/colors/" + theme + ".css";
+      } else {
+        console.log("theme", theme);
+
+        let c = cookie("color");
+        document.getElementById("color-opt").href =
+          "./css/colors/" + c + ".css";
+      }
+    } else {
+      document.cookie = `color = default`;
+    }
     toggleSwitcher(false);
   }
 
   function setTheme(theme) {
-    document.getElementById("theme-opt").href = "./css/" + theme + ".css";
+    if (cookie("isVisited")) {
+      if (theme) {
+        document.cookie = `theme = ${theme}`;
+        document.getElementById("theme-opt").href = "./css/" + theme + ".css";
+      } else {
+        let c = cookie("theme");
+        document.getElementById("theme-opt").href = "./css/" + c + ".css";
+      }
+    } else {
+      document.cookie = `theme = style`;
+    }
+
     toggleSwitcher(false);
   }
 } catch (error) {}
