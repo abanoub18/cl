@@ -861,18 +861,24 @@ try {
   function setColor(theme) {
     if (theme) {
       document.cookie = `color = ${theme}`;
+      let c = cookie("color");
+      document.getElementById("color-opt").href = "./css/colors/" + c + ".css";
+    } else {
+      document.getElementById("color-opt").href =
+        "./css/colors/" + "default" + ".css";
     }
-    let c = cookie("color");
-    document.getElementById("color-opt").href = "./css/colors/" + c + ".css";
     toggleSwitcher(false);
   }
 
   function setTheme(theme) {
     if (theme) {
       document.cookie = `theme = ${theme}`;
+      let c = cookie("theme");
+      document.getElementById("theme-opt").href = "./css/" + c + ".css";
+    } else {
+      document.getElementById("theme-opt").href =
+        "./css/" + "dark-style" + ".css";
     }
-    let c = cookie("theme");
-    document.getElementById("theme-opt").href = "./css/" + c + ".css";
     toggleSwitcher(false);
   }
 } catch (error) {}
