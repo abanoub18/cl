@@ -1868,7 +1868,7 @@ p {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .bg-gradient-primary {
-  background: linear-gradient(to left, #3f3f3f 0%, #6c6c6c 100%);
+  background: linear-gradient(to left, #81cc9b 0%, #2443ac 100%);
 }
 .bg-linear-gradient {
   background: linear-gradient(
