@@ -2204,7 +2204,7 @@ button:not(:disabled) {
 /*         General               */
 /*===============================*/
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "tomorrow", sans-serif;
   overflow-x: hidden !important;
   font-size: 18px;
   color: #161c2d;
@@ -2222,7 +2222,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "tomorrow", sans-serif;
   line-height: 1.4;
   font-weight: 600;
 }
@@ -2275,7 +2275,7 @@ p {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(to left, #614092 0%, #2443ac 100%);
+  background: linear-gradient(to left, #3f3f3f 0%, #6c6c6c 100%);
 }
 
 .bg-linear-gradient {

@@ -2301,7 +2301,7 @@ p {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(to left, #614092 0%, #2443ac 100%);
+  background: linear-gradient(to left, #3f3f3f 0%, #6c6c6c 100%);
 }
 
 .bg-linear-gradient {
