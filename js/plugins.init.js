@@ -859,34 +859,15 @@ try {
   }
 
   function setColor(theme) {
-    if (cookie("isVisited")) {
-      if (theme) {
-        document.cookie = `color = ${theme}`;
-        document.getElementById("color-opt").href =
-          "./css/colors/" + theme + ".css";
-      } else {
-        let c = cookie("color");
-        document.getElementById("color-opt").href =
-          "./css/colors/" + c + ".css";
-      }
-    } else {
-      toggleSwitcher(false);
-      document.cookie = `color = default`;
-    }
+    document.getElementById("color-opt").href =
+      "./css/colors/" + theme + ".css";
+    toggleSwitcher(false);
   }
 
   function setTheme(theme) {
-    if (cookie("isVisited")) {
-      if (theme) {
-        document.cookie = `theme = ${theme}`;
-        document.getElementById("theme-opt").href = "./css/" + theme + ".css";
-      } else {
-        let c = cookie("theme");
-        document.getElementById("theme-opt").href = "./css/" + c + ".css";
-      }
-    } else {
-      toggleSwitcher(false);
-      document.cookie = `theme = style`;
-    }
+    console.log("theme", theme);
+    document.getElementsByClassName("btn-translate").textContent = "Ar";
+    document.getElementById("theme-opt").href = "./css/" + theme + ".css";
+    toggleSwitcher(false);
   }
 } catch (error) {}
