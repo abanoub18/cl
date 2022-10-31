@@ -2378,7 +2378,7 @@ p {
 
 .title-heading .para-desc {
   font-size: 22px;
-  text-align: justify;
+  text-align: center !important;
   color: #e8e9ea !important;
 }
 
